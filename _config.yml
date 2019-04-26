@@ -17,6 +17,10 @@ title: "3Diline"
 name: "3Diline"
 email: "3diline@tin.it"
 tel: "+39 081 512 3280"
+address: |-
+  Via Taranto 42
+  80035 Nola (NA)
+  Italia
 logo: "/assets/img/Logo.png"
 description: ""
 permalink: /:title/

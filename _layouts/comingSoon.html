@@ -1,5 +1,11 @@
 ---
+layout: default
 ---
-<img src="{{ site.logo }}" alt="logo-3Diline">
+<img class="logo" src="{{ site.logo }}" alt="logo-3Diline">
 
 <h2 class="red">{{ page.title }}</h2>
+<div id="address" class="pink" >
+  {{ site.address | markdownify }}
+  {{ site.tel | markdownify }}
+  <a href"mailto:{{ site.email }}">{{ site.email | markdownify }}</a>
+</div>

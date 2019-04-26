@@ -1,0 +1,21 @@
+body {
+  width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(67% 126%, #494949 27%, #151515 100%);
+}
+.logo {
+  margin: 0 2rem;
+  max-width: 600px;
+}
+div#address {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  * {
+    
+  }
+}

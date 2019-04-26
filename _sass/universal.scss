@@ -1,5 +1,5 @@
 * {
-  font-family: 100% $primary-font;
+  font-family: 100% $Text;
 }
 html {
   height: 100%;
@@ -10,6 +10,15 @@ body {
   flex-direction: column;
   min-height: 100%;
   margin: 0;
+}
+.red {
+  color: $red;
+}
+.pink {
+  color: $pink;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 100% $Headings;
 }
 h1 {
   font-size: 120px;
@@ -30,8 +39,8 @@ p {
   text-align: justify;
 }
 a {
-  color: #000000;
-  text-decoration: none;
+  color: $pink;
+  text-decoration: underline;
 }
 img {
   object-fit: contain;

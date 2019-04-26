@@ -1,0 +1,28 @@
+
+  {% if page.permalink != "/" %}
+  <div class="header colouredBackground" style="background: linear-gradient(rgba(000,000,000, 0.2), rgba(000,000,000, 0.3)), url({{ site.baseurl }}/uploads/print2.JPG);">
+    <div class="name">
+      <a class="name" href="{{ site.baseurl }}/"><h3>{{ site.name }}</h3></a>
+    </div>
+  {% else %}
+  <div class="header">
+  {% endif %}
+
+
+      <i id="burger" class="material-icons" onclick="burger()">menu</i>
+      <i id="quit" class="material-icons" onclick="quit()">clear</i>
+
+      <ul id="large-menu" class="navbar-nav">
+        {% for item in site.data.navigation %}
+          <li class="nav-item {% if page.url contains item.link %} active {% endif %}">
+            <a class="nav-link" href="{{ item.link }}"> {{ item.name }}
+          </li>
+          {% endfor %}
+      </ul>
+
+        <div id="links">
+          {% for item in site.data.navigation %}
+            <a onclick="quit()" class="menu-item" href="{{ item.link }}">{{ item.name }}</a>
+          {% endfor %}
+        </div>
+</div>

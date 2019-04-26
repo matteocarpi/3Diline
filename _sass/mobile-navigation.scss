@@ -1,0 +1,45 @@
+#burger{
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: white;
+  background: linear-gradient(
+      rgba(00, 00, 124, 0.8),
+      rgba(73, 146, 124, 0.9)
+      ),;
+  font-size: 32px;
+  padding: 16px 16px 32px 32px;
+  border-radius: 0% 0% 0% 100%;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#quit{
+  position: fixed;
+  top: 0;
+  color: white;
+  font-size: 32px;
+  padding: 16px;
+  display: none;
+  cursor: pointer;
+  z-index: 1;
+}
+#links{
+  position: fixed;
+  top: 0;
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+  height: 50vh;
+  padding: 25vh 0;
+}
+
+#links a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  font: 100% $primary-font;
+  z-index: 10;
+  padding: 1rem 0;
+}

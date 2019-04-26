@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  border-bottom: solid 1px;
+  text-align: center;
+  flex-shrink: 0;
+}
+ul#large-menu {
+  display: flex;
+  list-style: none;
+  a.nav-link {
+  padding: 0 1rem;
+  }
+}

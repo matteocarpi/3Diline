@@ -1,26 +1,35 @@
 - name: "Nero Giardini"
   copy: |-
-  url:
+     Una produzione di scarpe, accessori e abbigliamento Made in Italy è alla base del successo dell’azienda marchigiana B.A.G. Spa, titolare del marchio NeroGiardini.
+
+     Con sede a Monte San Pietrangeli (FM) nelle Marche, nel cuore del distretto calzaturiero fermano-maceratese, la società è guidata da Enrico Bracalente, Amministratore Unico.
+  url: "https://www.nerogiardini.it/"
   img:
   section: [u, d, b]
 - name: "Melluso"
   copy: |-
-  url:
+    Nata nel 1945 come un laboratorio artigianale familiare, l’azienda MELLUSO comprende subito l’importanza di integrare la lavorazione artigianale con le nascenti tecnologie industriali. Comincia così la strada che la farà diventare un’industria leader affermata nel campo delle calzature comode. Un’importante serie di investimenti e trasformazioni interne porta ad un graduale sviluppo delle dimensioni dell’azienda, della sua mole produttiva e della diffusione del prodotto a livello nazionale ed internazionale.
+  url: "https://www.melluso.it"
   img:
   section: [u, d]
 - name: "Balducci"
   copy: |-
-  url:
+    Le calzature Balducci hanno a cuore il benessere del bambino. Ogni scarpina è dotata di un fusbet estraibile e di un plantare anatomico anallergico e all'aloe, studiati per garantire la crescita naturale e armoniosa del piede. L’utilizzo esclusivo di materiali morbidi, tutti rigorosamente in pelle, danno vita a calzature leggere e flessibili che permettono equilibrio e la massima libertà di movimento. Quella di Balducci è una storia di passione, artigianalità e made in Italy. Un'azienda che ha mantenuto nel tempo sempre lo stesso obiettivo: permettere ai bambini di iniziare a camminare in modo sano, consentendo uno sviluppo naturale del piede dai primi anni fino all'adolescenza.
+  url: "http://www.balducci.it/"
   img:
   section: [b]
 - name: "Geox"
   copy: |-
-  url:
+    Lo sviluppo della tecnologia che respira è la mission di Geox. L’azienda investe costantemente in ricerca allo scopo di apportare continui miglioramenti ai prodotti esistenti e di lanciare nuove soluzioni in grado di coniugare traspirazione ed impermeabilità. Ad oggi il Gruppo Geox ha depositato oltre 60 brevetti in Italia ed estesi in ambito internazionale.
+  url: "https://www.geox.com/it-IT/"
   img:
   section: [u, d, b]
 - name: "Valleverde"
   copy: |-
-  url:
+    VALLEVERDE NASCE NEGLI ANNI ’70 A CORIANO, IN PROVINCIA DI RIMINI
+
+    L’intuizione di unire in un’unica calzatura comodità e moda ha portato in breve tempo il brand ad un’ascesa senza precedenti, con un livello di notorietà tale da essere riconosciuto leader del settore. Una filosofia votata alla salute del piede che al tempo stesso sposa le ultime tendenze fashion. Scarpe alla moda ma anche comode, flessibili e leggere: questi sono i valori di Valleverde che ha fatto del comfort uno dei suoi punti forza. Valleverde è da sempre il simbolo della moda comoda italiana e con lei si evolve e rinnova. Una nuova immagine, un nuovo design, una nuova identità per essere al passo con i tempi, pur mantenendo i valori propri del brand, questo è oggi Valleverde.
+  url: "http://www.valleverde.it"
   img:
   section: [u, d]
 - name: "Callaghan"

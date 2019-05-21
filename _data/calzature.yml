@@ -1,0 +1,70 @@
+- name: "Nero Giardini"
+  copy: |-
+  url:
+  img:
+  section: [u, d, b]
+- name: "Melluso"
+  copy: |-
+  url:
+  img:
+  section: [u, d]
+- name: "Balducci"
+  copy: |-
+  url:
+  img:
+  section: [b]
+- name: "Geox"
+  copy: |-
+  url:
+  img:
+  section: [u, d, b]
+- name: "Valleverde"
+  copy: |-
+  url:
+  img:
+  section: [u, d]
+- name: "Callaghan"
+  copy: |-
+  url:
+  img:
+  section: [u, d, b]
+- name: "Frau"
+  copy: |-
+  url:
+  img:
+  section: [u, d, b]
+- name: "24h"
+  copy: |-
+  url:
+  img:
+  section: [u, d, b]
+- name: "Cristiano Gualtieri"
+  copy: |-
+  url:
+  img:
+  section: [u]
+- name: "Perez"
+  copy: |-
+  url:
+  img:
+  section: [u, d]
+- name: "Wrangler"
+  copy: |-
+  url:
+  img:
+  section: [u, d]
+- name: "Nike"
+  copy: |-
+  url:
+  img:
+  section: [u, d, b]
+- name: "Adidas"
+  copy: |-
+  url:
+  img:
+  section: [u, d, b]
+- name: "Hawaianas"
+  copy: |-
+  url:
+  img:
+  section: [u, d, b]

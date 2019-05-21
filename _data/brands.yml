@@ -5,28 +5,32 @@
 
      Con sede a Monte San Pietrangeli (FM) nelle Marche, nel cuore del distretto calzaturiero fermano-maceratese, la società è guidata da Enrico Bracalente, Amministratore Unico.
   url: "https://www.nerogiardini.it/"
-  img:
+  img-men:
+  img-women:
   section: [u, d, b, bd]
 - name: "Melluso"
   logo: "{{ site.baseurl }}/assets/brand-logos/melluso.png"
   copy: |-
     Nata nel 1945 come un laboratorio artigianale familiare, l’azienda MELLUSO comprende subito l’importanza di integrare la lavorazione artigianale con le nascenti tecnologie industriali. Comincia così la strada che la farà diventare un’industria leader affermata nel campo delle calzature comode. Un’importante serie di investimenti e trasformazioni interne porta ad un graduale sviluppo delle dimensioni dell’azienda, della sua mole produttiva e della diffusione del prodotto a livello nazionale ed internazionale.
   url: "https://www.melluso.it"
-  img:
+  img-men:
+  img-women:
   section: [u, d, bd]
 - name: "Balducci"
   logo: "{{ site.baseurl }}/assets/brand-logos/balducci.png"
   copy: |-
     Le calzature Balducci hanno a cuore il benessere del bambino. Ogni scarpina è dotata di un fusbet estraibile e di un plantare anatomico anallergico e all'aloe, studiati per garantire la crescita naturale e armoniosa del piede. L’utilizzo esclusivo di materiali morbidi, tutti rigorosamente in pelle, danno vita a calzature leggere e flessibili che permettono equilibrio e la massima libertà di movimento. Quella di Balducci è una storia di passione, artigianalità e made in Italy. Un'azienda che ha mantenuto nel tempo sempre lo stesso obiettivo: permettere ai bambini di iniziare a camminare in modo sano, consentendo uno sviluppo naturale del piede dai primi anni fino all'adolescenza.
   url: "http://www.balducci.it/"
-  img:
+  img-men-men:
+  img-women:
   section: [b]
 - name: "Geox"
   logo: "{{ site.baseurl }}/assets/brand-logos/geox.png"
   copy: |-
     Lo sviluppo della tecnologia che respira è la mission di Geox. L’azienda investe costantemente in ricerca allo scopo di apportare continui miglioramenti ai prodotti esistenti e di lanciare nuove soluzioni in grado di coniugare traspirazione ed impermeabilità. Ad oggi il Gruppo Geox ha depositato oltre 60 brevetti in Italia ed estesi in ambito internazionale.
   url: "https://www.geox.com/it-IT/"
-  img:
+  img-men:
+  img-women:
   section: [u, d, b]
 - name: "Valleverde"
   logo: "{{ site.baseurl }}/assets/brand-logos/valleverde.png"
@@ -35,28 +39,32 @@
 
     L’intuizione di unire in un’unica calzatura comodità e moda ha portato in breve tempo il brand ad un’ascesa senza precedenti, con un livello di notorietà tale da essere riconosciuto leader del settore. Una filosofia votata alla salute del piede che al tempo stesso sposa le ultime tendenze fashion. Scarpe alla moda ma anche comode, flessibili e leggere: questi sono i valori di Valleverde che ha fatto del comfort uno dei suoi punti forza. Valleverde è da sempre il simbolo della moda comoda italiana e con lei si evolve e rinnova. Una nuova immagine, un nuovo design, una nuova identità per essere al passo con i tempi, pur mantenendo i valori propri del brand, questo è oggi Valleverde.
   url: "http://www.valleverde.it"
-  img:
+  img-men:
+  img-women:
   section: [u, d]
 - name: "Callaghan"
   logo: "{{ site.baseurl }}/assets/brand-logos/callaghan.png"
   copy: |-
     Durante questi anni la filosofia dell’azienda si è sempre basata su alcuni pilastri fondamentali quali, in ordine di importanza: prodotto, distribuzione, immagine e prezzo, parallelamente all’attenzione per l’ecosistema ambientale. L’obiettivo, attraverso lo sviluppo e l’innovazione delle tecnologie ADAPTATION, ADAPTLITE, WATERADAPT come elementi distintivi, è la fabbricazione di un prodotto che soddisfi pienamente i bisogni e le aspettative dei clienti, e che, allo stesso tempo, rispetti l’ambiente.
   url:  "https://it.callaghan.es/"
-  img:
+  img-men:
+  img-women:
   section: [u, d, b]
 - name: "Frau"
   logo: "{{ site.baseurl }}/assets/brand-logos/frau.png"
   copy: |-
     La tradizione calzaturiera espressa con dettagli artigianali, coniugata all’utilizzo di tecniche costruttive innovative, evidenzia la filosofia e l’italianità del marchio. La produzione è realizzata negli stabilimenti situati nella provincia di Verona, uno dei principali distretti calzaturieri in Italia. Oggi Frau rimane una azienda familiare, guidata dalla seconda generazione, che continua a sostenere il made in Italy con impegno e passione, che mira ad uno sviluppo economico sostenibile e duraturo, che si identifica con una comunità inserita nel territorio in cui si condividono i valori.
   url: "https://www.frau.it"
-  img:
+  img-men:
+  img-women:
   section: [u, d, b]
 - name: "24h"
   logo: "{{ site.baseurl }}/assets/brand-logos/24h.png"
   copy: |-
     Sin dall'inizio, è stata dedita all'innovazione ed ha investito significamente nella ricerca e nello sviluppo per creare scarpe che si evolvono di continuo. Tuttavia il valore centrale dell'impresa, il comfort, è sempre rimasto invariato.
   url: "https://24hrs.es/en/"
-  img:
+  img-men:
+  img-women:
   section: [u, d, b]
 - name: "Cristiano Gualtieri"
   logo: "{{ site.baseurl }}/assets/brand-logos/cristiano-gualtieri.png"
@@ -69,41 +77,47 @@
 
     Identità: Ogni componente della scarpa ha un’anima ed è personalizzato con il logo o il nome del brand.
   url: "https://www.cristianogualtieri.it"
-  img:
+  img-men:
+  img-women:
   section: [u]
 - name: "Perez"
   logo: "{{ site.baseurl }}/assets/brand-logos/perez.png"
   copy: |-
   url: "https://www.fratelliperez.it/?lang=en"
-  img:
+  img-men:
+  img-women:
   section: [u, d]
 - name: "Wrangler"
   logo: "{{ site.baseurl }}/assets/brand-logos/wrangler.png"
   copy: |-
     Dal 1906 produciamo scarpe di qualità interamente concepite e confezionate secondo standard tradizionali e secondo il rigoroso iter produttivo delle confezioni Fatte a mano in Italia. Quasi 100 anni di esperienza tramandata di generazione in generazione applicata al “concept”, alla scelta dei pellami di qualità, ai materiali complementari come tessuti e gomme atossiche, all’ausilio di macchinari tecnologici per soddisfare una richiesta sempre più esigente. La Vostra. Le fasi della lavorazione sono numerose, tutte svolte da operatori qualificati e si concludono con un rigido controllo qualità che ne garantisce il risultato aspettato. La produzione del Calzaturificio dei Fratelli Perez si può suddividere in due grandi fasce: il Moderno, Trendy o Sportivo e, fiore all’occhiello della produzione Perez, il Classico, dove le calzature sono la massima espressione di un concetto di Qualità e Comfort perfettamente sovrapposto al Design.
   url: "https://www.fratelliperez.it"
-  img:
+  img-men:
+  img-women:
   section: [u, d]
 - name: "Nike"
   logo: "{{ site.baseurl }}/assets/brand-logos/nike.png"
   copy: |-
     La nostra missione e ciò che ci porta a fare il nostro meglio per espandere il potenziale che è in ogniuno di noi. Lo facciamo innovando i prodotti sportivi, producendo in maniera più sostenibile, costruendo un team globale creativo e diversificato e avendo un impatto positivo sulle comunità con cui lavoriamo e viviamo.
   url: "https://www.nike.com/it"
-  img:
+  img-men:
+  img-women:
   section: [u, d, b]
 - name: "Adidas"
   logo: "{{ site.baseurl }}/assets/brand-logos/adidas.png"
   copy: |-
     Adidas è una multinazionale, fondata e con sede a Herzogenaurach, in Germania, che progetta e produce scarpe, abbigliamento e accessori. È il più grande produttore di abbigliamento sportivo in Europa e il secondo più grande al mondo, dopo Nike. È la holding del gruppo Adidas, che comprende la società di abbigliamento sportivo Reebok, la società di golf TaylorMade (compresa Ashworth), Runtastic. La compagnia fu fondata da Adolf Dassler a casa di sua madre; fu raggiunto da suo fratello maggiore Rudolf nel 1924 sotto il nome di Dassler Brothers Shoe Factory.
   url: "https://www.adidas.it"
-  img:
+  img-men:
+  img-women:
   section: [u, d, b]
 - name: "Hawaianas"
   logo: "{{ site.baseurl }}/assets/brand-logos/hawaianas.png"
   copy: |-
     The name Havaianas is Portuguese for Hawaiians. The first pair of Havaianas was born in 1962, based on the traditional Japanese sandal known as the Zori, whose soles are made of rice straw. The texture of Havaianas’ rubber soles are like rice grains, one of the many details that make Havaianas unmistakable.
   url: "https://www.havaianas-store.com/it"
-  img:
+  img-men:
+  img-women:
   section: [u, d, b]
 - name: "Samsonite"
   logo: "/assets/brand-logos/samsonite.png"
@@ -112,7 +126,8 @@
 
     Samsonite oggi continua ad essere leader nel settore seguendo i principi del nostro fondatore, stile eccezionale e funzionalità, in armonia con le esigenze del viaggio moderno.
   url: "https://www.samsonite.it/"
-  img:
+  img-men:
+  img-women:
   section: [v, cp, pp]
 - name: "American Tourister"
   logo: "/assets/brand-logos/american-tourister.png"
@@ -121,7 +136,8 @@
 
     Le collezioni American Tourister uniscono qualità, stile e funzionalità, coprendo un’ampia gamma di articoli da viaggio, ideali per la tua prossima vacanza.
   url: "https://www.americantourister.it"
-  img:
+  img-men:
+  img-women:
   section: [v]
 - name: "Roncato"
   logo: "/assets/brand-logos/roncato.png"
@@ -129,14 +145,16 @@
     RV RONCATO progetta, produce e commercializza una vasta gamma di prodotti destinati al viaggio e all’utilizzo quotidiano volta a soddisfare l’esigenza di ogni consumatore alla ricerca di un prodotto caratterizzato da innovazione, funzionalità, comfort e design.
     Tutto ciò grazie ad una radicata esperienza e know how di prodotto, sempre nel rispetto dello stile italiano. Il soddisfacimento delle esigenze del consumatore attraverso la ricerca ed il miglioramento delle funzionalità di prodotto sono per noi lo scopo primario.
   url: "https://www.roncato.com/it"
-  img:
+  img-men:
+  img-women:
   section: [v, cp, pp, bd]
 - name: "Piquadro"
   logo: "/assets/brand-logos/piquadro.png"
   copy: |-
     Piquadro è specializzata in borse ed accessori per il business innovativi, che si distinguono per la loro grande funzionalità d'uso ed esprimono, nel design performante e riconoscibile, tutta l'originalità e l'eleganza dello stile italiano. Piquadro è un'azienda e una marca italiana, ciò spiega la qualità dei suoi pellami e la sensibilità nel design. Spiega la sua passione, la sua creatività, il senso dello stile informale e al tempo stesso professionale. Lo spirito dei prodotti Piquadro sta tutto nel concetto che ispira la progettazione di ognuno di essi - "tech-inside". Ma la funzionalità per Piquadro va oltre il contenimento di accessori high-tech, toccando tutti gli aspetti del prodotto: nuovi materiali, nuovi test per verificarne l'affidabilità, nuove soluzioni di organizzazione interna per rendere i propri articoli sempre più comodi e utili nella pratica di ogni giorno. I materiali, la costruzione e le funzionalità sono tali che i prodotti Piquadro sono di una qualità e affidabilità professionale. Una borsa Piquadro è un accessorio intelligente. La vita professionale è sempre più movimentata e frenetica. Piquadro ti dà una mano per affrontarla: engineered for business.
   url: "https://www.piquadro.com/it"
-  img:
+  img-men:
+  img-women:
   section: [v, cp, bd, pp]
 - name: "The Bridge"
   logo: "/assets/brand-logos/the-bridge.png"
@@ -145,12 +163,14 @@
 
     È un ponte che si rinnova unendo tradizione e contemporaneità, nostalgia e joie de vivre, vintage e anima green. È una storiadi materiali eccellenti e lavorazioni sapienti. È il Tuscany way of life che s’incarna in borse e accessori caratterizzati dall’eleganza naturale e senza tempo del cuoio italiano pieno fiore, conciato al vegetale e lucidato fino a diventare morbido e incredibilmente luminoso.
   url: "https://www.thebridge.it"
-  img:
+  img-men:
+  img-women:
   section: [v, bd, cp, pp]
 - name: "Graziella Braccialini"
   logo: "/assets/brand-logos/graziella-braccialini.png"
   copy: |-
     Graziella Holding ha annunciato l’acquisto della storica azienda fiorentina Braccialini nell'aprile 2017. L’unione di queste due realtà, entrambe forti di un’esperienza internazionale ed eredi dei valori della tradizione artigianale toscana, ha creato un nuovo gioiello imprenditoriale, aprendo nuove prospettive per il Made in Italy in Italia e nel mondo. Braccialini è entrato così a far parte delle aziende che fanno capo a Graziella Holding, contribuendo ad accrescere le potenzialità del gruppo.
   url: "https://www.braccialini.it"
-  img:
+  img-men:
+  img-women:
   section: [v, bd, pp]

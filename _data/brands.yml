@@ -1,5 +1,5 @@
 - name: "Nero Giardini"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/nero-giardini.png"
   copy: |-
      Una produzione di scarpe, accessori e abbigliamento Made in Italy è alla base del successo dell’azienda marchigiana B.A.G. Spa, titolare del marchio NeroGiardini.
 
@@ -8,28 +8,28 @@
   img:
   section: [u, d, b, bd]
 - name: "Melluso"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/melluso.png"
   copy: |-
     Nata nel 1945 come un laboratorio artigianale familiare, l’azienda MELLUSO comprende subito l’importanza di integrare la lavorazione artigianale con le nascenti tecnologie industriali. Comincia così la strada che la farà diventare un’industria leader affermata nel campo delle calzature comode. Un’importante serie di investimenti e trasformazioni interne porta ad un graduale sviluppo delle dimensioni dell’azienda, della sua mole produttiva e della diffusione del prodotto a livello nazionale ed internazionale.
   url: "https://www.melluso.it"
   img:
   section: [u, d, bd]
 - name: "Balducci"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/balducci.png"
   copy: |-
     Le calzature Balducci hanno a cuore il benessere del bambino. Ogni scarpina è dotata di un fusbet estraibile e di un plantare anatomico anallergico e all'aloe, studiati per garantire la crescita naturale e armoniosa del piede. L’utilizzo esclusivo di materiali morbidi, tutti rigorosamente in pelle, danno vita a calzature leggere e flessibili che permettono equilibrio e la massima libertà di movimento. Quella di Balducci è una storia di passione, artigianalità e made in Italy. Un'azienda che ha mantenuto nel tempo sempre lo stesso obiettivo: permettere ai bambini di iniziare a camminare in modo sano, consentendo uno sviluppo naturale del piede dai primi anni fino all'adolescenza.
   url: "http://www.balducci.it/"
   img:
   section: [b]
 - name: "Geox"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/geox.png"
   copy: |-
     Lo sviluppo della tecnologia che respira è la mission di Geox. L’azienda investe costantemente in ricerca allo scopo di apportare continui miglioramenti ai prodotti esistenti e di lanciare nuove soluzioni in grado di coniugare traspirazione ed impermeabilità. Ad oggi il Gruppo Geox ha depositato oltre 60 brevetti in Italia ed estesi in ambito internazionale.
   url: "https://www.geox.com/it-IT/"
   img:
   section: [u, d, b]
 - name: "Valleverde"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/valleverde.png"
   copy: |-
     VALLEVERDE NASCE NEGLI ANNI ’70 A CORIANO, IN PROVINCIA DI RIMINI
 
@@ -38,55 +38,55 @@
   img:
   section: [u, d]
 - name: "Callaghan"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/callaghan.png"
   copy: |-
   url:
   img:
   section: [u, d, b]
 - name: "Frau"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/frau.png"
   copy: |-
   url:
   img:
   section: [u, d, b]
 - name: "24h"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/24h.png"
   copy: |-
   url:
   img:
   section: [u, d, b]
 - name: "Cristiano Gualtieri"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/cristiano-gualtieri.png"
   copy: |-
   url:
   img:
   section: [u]
 - name: "Perez"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/perez.png"
   copy: |-
   url:
   img:
   section: [u, d]
 - name: "Wrangler"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/wrangler.png"
   copy: |-
   url:
   img:
   section: [u, d]
 - name: "Nike"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/nike.png"
   copy: |-
   url:
   img:
   section: [u, d, b]
 - name: "Adidas"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/adidas.png"
   copy: |-
   url:
   img:
   section: [u, d, b]
 - name: "Hawaianas"
-  logo:
+  logo: "{{ site.baseurl }}/assets/brand-logos/hawaianas.png"
   copy: |-
   url:
   img:
@@ -97,7 +97,7 @@
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   url:
   img:
-  section: [v]
+  section: [v, cp, pp]
 - name: "American Tourister"
   logo: "/assets/brand-logos/american-tourister.png"
   copy: |-
@@ -111,18 +111,25 @@
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   url:
   img:
-  section: [v]
+  section: [v, cp, pp, bd]
 - name: "Piquadro"
   logo: "/assets/brand-logos/piquadro.png"
   copy: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   url:
   img:
-  section: [v]
+  section: [v, cp, bd, pp]
 - name: "The Bridge"
   logo: "/assets/brand-logos/the-bridge.png"
   copy: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   url:
   img:
-  section: [v]
+  section: [v, bd, cp, pp]
+- name: "Graziella Braccialini"
+  logo: "/assets/brand-logos/graziella-braccialini.png"
+  copy: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  url:
+  img:
+  section: [v, bd, pp]

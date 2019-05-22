@@ -3,6 +3,7 @@ layout: default
 ---
 <div id="" class="brands" >
 
+  <img src="" alt="">
   {% assign calzature-uomo = "" | split: ',' %}
   {% for item in site.data.brands %}
     {% if item.section contains "u" %}
@@ -17,7 +18,7 @@ layout: default
       {% if position == 0 %}
       <div class="brand-wrap">
         <div id="" class="brand" >
-          {{ forloop.index }}
+
           <img class="brand-logo"src="{{ item.logo }}" alt="">
 
           <div id="" class="brand-description right" >
@@ -32,7 +33,7 @@ layout: default
 
     <div class="brand-wrap">
       <div id="" class="brand" >
-{{ forloop.index }}
+
         <img class="brand-logo"src="{{ item.logo }}" alt="">
 
         <div id="" class="brand-description left" >
@@ -47,7 +48,7 @@ layout: default
 
     <div class="brand-wrap">
       <div id="" class="brand" >
-{{ forloop.index }}
+
         <img class="brand-logo"src="{{ item.logo }}" alt="">
 
         <div id="" class="brand-description center" >

@@ -99,11 +99,17 @@ div.brand-description {
   opacity: 0;
   position: absolute;
   top: 100%;
-  left: 0;
   background-color: white;
+  z-index: 1;
+  border: solid;
   width: 40vw;
 }
-
+div.brand-description.left {
+  left: 0;
+}
+div.brand-description.right {
+  right: 0;
+}
 div.brand:hover {
   cursor: pointer;
   div.brand-description {

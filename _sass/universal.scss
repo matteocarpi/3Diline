@@ -66,3 +66,49 @@ img {
   padding: 2rem 0;
   border-top: solid 1px;
 }
+
+img.brand-logo {
+  max-width: 250px;
+}
+
+div.brands {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+div.brand-wrap {
+  flex: 0 0 33.33333%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.brand {
+  position: relative;
+  margin-bottom: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
+}
+
+div.brand-description {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  width: 40vw;
+}
+
+div.brand:hover {
+  cursor: pointer;
+  div.brand-description {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  }
+}

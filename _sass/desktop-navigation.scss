@@ -40,13 +40,6 @@ ul li ul {
   display: none;
 }
 
-ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
 ul li ul li {
   clear: both;
   width: 100%;

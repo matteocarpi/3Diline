@@ -26,17 +26,21 @@
       </ul>
 
         <div id="links">
-          <ul>
+          <ul class="mobile-menu">
 
             {% for item in site.data.navigation %}
 
-              <li><a onclick="quit()" class="menu-item" href="{{ item.link }}">{{ item.name }}</a></li>
+              <li><a onclick="{% unless item.second-level %} quit() {% endunless %}" class="menu-item" href="{{ item.link }}">{{ item.name }}</a></li>
 
               {% if item.second-level %}
 
-                {% for item in item.second-level %}
-                  <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-                {% endfor %}
+                <ul class="second-level">
+
+                  {% for item in item.second-level %}
+                    <li onclick="quit()" class="second-level-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                  {% endfor %}
+
+                </ul>
 
               {% endif %}
 

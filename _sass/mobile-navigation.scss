@@ -2,16 +2,17 @@
   position: fixed;
   right: 0;
   top: 0;
-  color: white;
-  background: linear-gradient(
-      rgba(00, 00, 124, 0.8),
-      rgba(73, 146, 124, 0.9)
-      ),;
+  color: black;
   font-size: 32px;
-  padding: 16px 16px 32px 32px;
-  border-radius: 0% 0% 0% 100%;
+  padding: 25px 25px 32px 32px;
   transition: 1s;
   cursor: pointer;
+  z-index: 5;
+}
+
+#burger.expanded {
+  background-color: black;
+  color: white;
 }
 
 #quit{
@@ -19,10 +20,10 @@
   top: 0;
   color: white;
   font-size: 32px;
-  padding: 16px;
+  padding: 25px;
   display: none;
   cursor: pointer;
-  z-index: 1;
+  z-index: 11;
 }
 #links{
   position: fixed;
@@ -32,14 +33,33 @@
   width: 100vw;
   height: 50vh;
   padding: 25vh 0;
+  z-index: 10;
 }
 
 #links a{
-  text-align: center;
   text-decoration: none;
   color: white;
   font-size: 2em;
   font: 100% $primary-font;
   z-index: 10;
-  padding: 1rem 0;
+  padding: 1rem 0 3rem 0 ;
+}
+div#links ul {
+  display: flex;
+  flex-direction: column;
+}
+.second-level {
+  // display: none;
+  margin-left: 2rem;
+  border-left: solid 1px white;
+}
+.second-level:active {
+  .second-level-item {
+    display: flex;
+  }
+}
+ul.mobile-menu {
+    position: fixed;
+    top: 10%;
+    left: 27%;
 }

@@ -5,7 +5,8 @@ function burger(){
   var burger = document.getElementById('burger');
   var links = document.getElementById('links');
   var quit = document.getElementById('quit');
-  burger.style.padding = '16px 16px 200vw 200vw';
+  burger.style.padding = '25px 25px 300vw 200vw';
+  burger.classList.add("expanded");
   links.style.display = 'flex';
   quit.style.display = 'inline';
 }
@@ -14,7 +15,8 @@ function quit(){
   var burger = document.getElementById('burger');
   var links = document.getElementById('links');
   var quit = document.getElementById('quit');
-  burger.style.padding = '16px 16px 32px 32px';
+  burger.style.padding = '25px 25px 32px 32px';
+  burger.classList.remove("expanded");
   links.style.display = 'none';
   quit.style.display = 'none';
 }

@@ -3,6 +3,43 @@
   #links, #burger, #quit {
     display: none;
   }
+  div.brands {
+    justify-content: space-around;
+  }
+  div.brand-description.left {
+    left: 0;
+      .arrow-up {
+        visibility: hidden;
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+        border: solid 1px;
+        transform: rotate(45deg);
+        position: absolute;
+        top: -15px;
+        left: 10%;
+        z-index: 2;
+        top: -16px;
+        background-color: white;
+    }
+  }
+  div.brand-description.right {
+    right: 0;
+    .arrow-up {
+      visibility: hidden;
+      opacity: 0;
+      width: 30px;
+      height: 30px;
+      border: solid 1px;
+      transform: rotate(45deg);
+      position: absolute;
+      top: -15px;
+      left: 86%;
+      z-index: 2;
+      top: -16px;
+      background-color: white;
+    }
+  }
 }
 
 // Tablet
@@ -14,6 +51,7 @@
       display: none !important;
     }
   }
+
 }
 
 // Smartphone

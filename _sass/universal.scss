@@ -18,6 +18,7 @@ h1 {
 h2 {
   font-size: 70px;
   font-weight: 700;
+  margin: 1rem 0 0 0;
 }
 h3 {
   font-size: 30px;
@@ -75,7 +76,7 @@ div.brands {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
 }
 div.brand-wrap {
@@ -102,58 +103,13 @@ div.brand-description {
   background-color: white;
   z-index: 1;
   border: solid 1px;
-  width: 40vw;
+  width: 90vw;
+  max-width: 1000px;
   margin-top: 30px;
-}
-div.brand-description.left {
-  left: 0;
-    .arrow-up {
-      visibility: hidden;
-      opacity: 0;
-      width: 30px;
-      height: 30px;
-      border: solid 1px;
-      transform: rotate(45deg);
-      position: absolute;
-      top: -15px;
-      left: 10%;
-      z-index: 2;
-      top: -16px;
-      background-color: white;
-  }
-}
-div.brand-description.right {
-  right: 0;
-    .arrow-up {
-      visibility: hidden;
-      opacity: 0;
-      width: 30px;
-      height: 30px;
-      border: solid 1px;
-      transform: rotate(45deg);
-      position: absolute;
-      top: -15px;
-      right: 10%;
-      z-index: 2;
-      top: -16px;
-      background-color: white;
-    }
-}
-div.brand-description.center {
-  .arrow-up {
-    visibility: hidden;
-    opacity: 0;
-    width: 30px;
-    height: 30px;
-    border: solid 1px;
-    transform: rotate(45deg);
-    position: absolute;
-    top: -15px;
-    left: 46%;
-    z-index: 2;
-    top: -16px;
-    background-color: white;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
 }
 
 .arrow-up-cover {
@@ -172,7 +128,6 @@ div.brand:hover {
   div.brand-description {
   visibility: visible;
   opacity: 1;
-  display: block;
   }
   div.arrow-up, div.arrow-up-cover {
     visibility: visible;
@@ -185,7 +140,20 @@ p.brand-text {
   margin-top: 2rem;
   z-index: 4;
 }
-
+.arrow-up {
+  visibility: hidden;
+  opacity: 0;
+  width: 30px;
+  height: 30px;
+  border: solid 1px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -15px;
+  left: 48.5%;
+  z-index: 2;
+  top: -16px;
+  background-color: white;
+}
 // Desktop
 @media screen and (min-width: 768px) {
   div.brand-description {

@@ -101,14 +101,95 @@ div.brand-description {
   top: 100%;
   background-color: white;
   z-index: 1;
-  border: solid;
+  border: solid 1px;
   width: 40vw;
+  margin-top: 30px;
 }
 div.brand-description.left {
   left: 0;
+    .arrow-up {
+      visibility: hidden;
+      opacity: 0;
+      width: 30px;
+      height: 30px;
+      border: solid 1px;
+      transform: rotate(45deg);
+      position: absolute;
+      top: -15px;
+      left: 10%;
+      z-index: 2;
+      top: -16px;
+      background-color: white;
+  }
+    .arrow-up-cover {
+      visibility: hidden;
+      width: 60px;
+      height: 30px;
+      background-color: white;
+      position: absolute;
+      z-index: 3;
+      background-color: white;
+      align-self: center;
+      left: 9%;
+      background-color: white;
+    }
 }
 div.brand-description.right {
   right: 0;
+    .arrow-up {
+      visibility: hidden;
+      opacity: 0;
+      width: 30px;
+      height: 30px;
+      border: solid 1px;
+      transform: rotate(45deg);
+      position: absolute;
+      top: -15px;
+      right: 10%;
+      z-index: 2;
+      top: -16px;
+      background-color: white;
+    }
+    .arrow-up-cover {
+      visibility: hidden;
+      width: 60px;
+      height: 30px;
+      background-color: white;
+      position: absolute;
+      z-index: 3;
+      background-color: white;
+      align-self: center;
+      right: 9%;
+      background-color: white;
+    }
+}
+div.brand-description.center {
+  .arrow-up {
+    visibility: hidden;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+    border: solid 1px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -15px;
+    left: 46%;
+    z-index: 2;
+    top: -16px;
+    background-color: white;
+  }
+  .arrow-up-cover {
+    visibility: hidden;
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    align-self: center;
+    left: 44%;
+    background-color: white;
+  }
 }
 div.brand:hover {
   cursor: pointer;
@@ -117,4 +198,26 @@ div.brand:hover {
   opacity: 1;
   display: block;
   }
+  div.arrow-up, div.arrow-up-cover {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+}
+p.brand-text {
+  margin-top: 2rem;
+  z-index: 4;
+}
+
+// Desktop
+@media screen and (min-width: 768px) {
+  div.brand-description {
+    max-width: 1000px;
+
+  p.brand-text {
+    max-width: 670px;
+  }
+  }
+
 }

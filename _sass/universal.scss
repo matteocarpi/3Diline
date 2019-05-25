@@ -1,6 +1,3 @@
-* {
-  font-family: 100% $primary-font;
-}
 html {
   height: 100%;
   margin: 0;
@@ -11,29 +8,55 @@ body {
   min-height: 100%;
   margin: 0;
 }
+h1, h2, h3, h4 {
+  font-family: 100% $titles;
+  text-align: center;
+}
 h1 {
-  font-size: 120px;
-  font-weight: 700;
+  font-size: 40px;
 }
 h2 {
-  font-size: 70px;
-  font-weight: 700;
-  margin: 1rem 0 0 0;
+  font-size: 30px;
 }
 h3 {
   font-size: 30px;
   font-weight: 700;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 20px;
 }
 p {
-  font-size: 16px;
-  line-height: 1.5;
-  padding: 0 2rem;
+  font-family: $text;
+  font-size: 20px;
   text-align: justify;
+  line-height: 30px;
+  a {
+    color: $red;
+    text-decoration: underline;
+  }
 }
 a {
   color: #000000;
   text-decoration: none;
+  font-family: $text;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 30px;
 }
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
+.yellow {
+  color: $yellow;
+}
+.red {
+  color: $red;
+}
+
 img {
   object-fit: contain;
 }
@@ -48,12 +71,6 @@ img {
   :hover {
     color: black;
   }
-}
-.light {
-  color: $light;
-}
-.dark {
-  color: $dark;
 }
 .footer {
   display: flex;

@@ -83,22 +83,23 @@
 - name: "Perez"
   logo: "/assets/brand-logos/perez.png"
   copy: |-
-  url: "https://www.fratelliperez.it/?lang=en"
+    Dal 1906 produciamo scarpe di qualità interamente concepite e confezionate secondo standard tradizionali e secondo il rigoroso iter produttivo delle confezioni Fatte a mano in Italia. Quasi 100 anni di esperienza tramandata di generazione in generazione applicata al “concept”, alla scelta dei pellami di qualità, ai materiali complementari come tessuti e gomme atossiche, all’ausilio di macchinari tecnologici per soddisfare una richiesta sempre più esigente. La Vostra. Le fasi della lavorazione sono numerose, tutte svolte da operatori qualificati e si concludono con un rigido controllo qualità che ne garantisce il risultato aspettato. La produzione del Calzaturificio dei Fratelli Perez si può suddividere in due grandi fasce: il Moderno, Trendy o Sportivo e, fiore all’occhiello della produzione Perez, il Classico, dove le calzature sono la massima espressione di un concetto di Qualità e Comfort perfettamente sovrapposto al Design.
+  url: "https://www.fratelliperez.it/"
   img-men:
   img-women:
   section: [u, d]
 - name: "Wrangler"
   logo: "/assets/brand-logos/wrangler.png"
   copy: |-
-    Dal 1906 produciamo scarpe di qualità interamente concepite e confezionate secondo standard tradizionali e secondo il rigoroso iter produttivo delle confezioni Fatte a mano in Italia. Quasi 100 anni di esperienza tramandata di generazione in generazione applicata al “concept”, alla scelta dei pellami di qualità, ai materiali complementari come tessuti e gomme atossiche, all’ausilio di macchinari tecnologici per soddisfare una richiesta sempre più esigente. La Vostra. Le fasi della lavorazione sono numerose, tutte svolte da operatori qualificati e si concludono con un rigido controllo qualità che ne garantisce il risultato aspettato. La produzione del Calzaturificio dei Fratelli Perez si può suddividere in due grandi fasce: il Moderno, Trendy o Sportivo e, fiore all’occhiello della produzione Perez, il Classico, dove le calzature sono la massima espressione di un concetto di Qualità e Comfort perfettamente sovrapposto al Design.
-  url: "https://www.fratelliperez.it"
+    Sin dall'inizio della nostra attività, la nostra ispirazione e guida è stata l'esperienza di vita; crediamo che il vestiario e le calzature debbano essere progettate per soddisfare i bisogni di chi li indossa.
+  url: "https://www.wrangler-footwear.com"
   img-men:
   img-women:
   section: [u, d]
 - name: "Nike"
   logo: "/assets/brand-logos/nike.png"
   copy: |-
-    La nostra missione e ciò che ci porta a fare il nostro meglio per espandere il potenziale che è in ogniuno di noi. Lo facciamo innovando i prodotti sportivi, producendo in maniera più sostenibile, costruendo un team globale creativo e diversificato e avendo un impatto positivo sulle comunità con cui lavoriamo e viviamo.
+    La nostra missione è fare il nostro meglio per espandere il potenziale che è in ogniuno di noi. Lo facciamo innovando i prodotti sportivi, producendo in maniera più sostenibile, costruendo un team globale creativo e diversificato e avendo un impatto positivo sulle comunità con cui lavoriamo e viviamo.
   url: "https://www.nike.com/it"
   img-men:
   img-women:

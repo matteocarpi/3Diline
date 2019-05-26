@@ -8,6 +8,11 @@ body {
   min-height: 100%;
   margin: 0;
 }
+
+.content {
+  flex: 1 0 0;
+}
+
 h1, h2, h3, h4 {
   font-family: 100% $titles;
   text-align: center;
@@ -60,9 +65,7 @@ a {
 img {
   object-fit: contain;
 }
-.grow {
-  flex-grow: 1;
-}
+
 .button {
   padding: 1rem 2rem;
   border: solid 1px;
@@ -72,17 +75,16 @@ img {
     color: black;
   }
 }
-.footer {
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-shrink: 0;
   margin-bottom: 1rem;
-  flex: 1;
   justify-content: flex-end;
   margin: 0;
   padding: 2rem 0;
   border-top: solid 1px;
+  flex-shrink: 0;
 }
 
 img.brand-logo {

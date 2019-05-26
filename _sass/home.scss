@@ -7,24 +7,25 @@
   justify-content: center;
 
   #brands-carousel {
+    position: relative;
     display: flex;
-    max-width: 800px;
+    max-width: 70vw;
     align-items: center;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     .brand {
-      max-width: 200px;
-      padding: 0 2rem;
+      max-width: 150px;
+      padding: 0 20px;
     }
   }
 
   #carousel-arrow-left {
-    margin-right: 5rem;
+    padding: 0 1rem;
     cursor: pointer;
   }
 
   #carousel-arrow-right {
-    margin-left: 5rem;
+    padding: 0 1rem;
     cursor: pointer;
   }
 }

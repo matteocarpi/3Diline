@@ -50,14 +50,14 @@ const arrowRight = document.getElementById('carousel-arrow-right');
 
 arrowRight.onclick = function () {
   var container = document.getElementById('brands-carousel');
-  sideScroll(container,'right',15,200,10);
+  sideScroll(container,'right',15,190,10);
 };
 
 const arrowLeft = document.getElementById('carousel-arrow-left');
 
 arrowLeft.onclick = function () {
   var container = document.getElementById('brands-carousel');
-  sideScroll(container,'left',15,200,10);
+  sideScroll(container,'left',15,190,10);
 };
 
 

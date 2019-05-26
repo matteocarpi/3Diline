@@ -37,17 +37,29 @@ layout: default
 
   <h2 class="red">I Nostri Brand</h2>
 
-  <div id="brands-carousel" class="" >
+  <div id="brands-carousel-wrap">
 
-      <img class="carousel-brand"src="{{ site.data.brands.first.logo }}" alt="">
+    <img id="carousel-arrow-left" src="/assets/arrow-left.png" alt="">
+
+    <div id="brands-carousel" class="" >
+
+      {% for item in site.data.brands %}
+
+        <a target="_blank" href="{{ item.url }}"><img class="brand" src="{{ item.logo }}" alt=""></a>
+
+      {% endfor %}
+
+    </div>
+
+    <img id="carousel-arrow-right" src="/assets/arrow-right.png" alt="">
 
   </div>
 
 </section>
 
 <section id="professionalità">
-  <h2 class="black">{{  page.professionalità.title }}</h2>
-  <p>{{ page.professionalità.copy }}</p>
+  <h2 class="black">{{  page.professional.title }}</h2>
+  <p>{{ page.professional.copy }}</p>
 
   <svg width="189px" height="118px" viewBox="0 0 189 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

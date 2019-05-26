@@ -42,3 +42,36 @@ function readLess(){
   readLess.style.display = 'none';
   readMore.style.display = 'block';
 }
+
+// Carousel Home
+
+// scroll left
+const arrowRight = document.getElementById('carousel-arrow-right');
+
+arrowRight.onclick = function () {
+  var container = document.getElementById('brands-carousel');
+  sideScroll(container,'right',15,200,10);
+};
+
+const arrowLeft = document.getElementById('carousel-arrow-left');
+
+arrowLeft.onclick = function () {
+  var container = document.getElementById('brands-carousel');
+  sideScroll(container,'left',15,200,10);
+};
+
+
+function sideScroll(element,direction,speed,distance,step){
+    scrollAmount = 0;
+    var slideTimer = setInterval(function(){
+        if(direction == 'left'){
+            element.scrollLeft -= step;
+        } else {
+            element.scrollLeft += step;
+        }
+        scrollAmount += step;
+        if(scrollAmount >= distance){
+            window.clearInterval(slideTimer);
+        }
+    }, speed);
+}

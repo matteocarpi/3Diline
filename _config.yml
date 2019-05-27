@@ -1,10 +1,18 @@
 title: "3Diline"
 name: "3Diline"
+indirizzo: |-
+  3Diline
+
+  Via Nazionale delle Puglie 28
+
+  80035 Nola (NA)
+
+  Italia
 email: "3diline@tin.it"
 tel: "+39 081 512 3280"
 description: ""
 permalink: /:title/
-baseurl: ""
+baseurl: "/3Diline"
 url: "https://www.3diline.it"
 image: ""
 logo: "/assets/Logo.png"

@@ -75,3 +75,44 @@ function sideScroll(element,direction,speed,distance,step){
         }
     }, speed);
 }
+
+
+// Slider
+
+var numSlides = 5;
+var activeSlide = 1;
+var nextSlide = activeSlide + 1;
+var transitionWait = 5;
+
+var activeProva = document.getElementsByClassName("slide-1");
+
+console.log(activeProva);
+
+function changeSlide() {
+
+    setTimeout(function () {
+        if (activeSlide < numSlides) {
+            var activeProva = document.querySelector(".slide-" + nextSlide);
+
+            console.log(activeProva);
+
+            document.querySelector(".slide-" + nextSlide)
+            .classList.add("active");
+            document.
+            querySelector(".slide-" + activeSlide)
+            .classList.remove("active");
+        }
+
+        else {
+          var activeSlide = 1;
+          document
+          .querySelector('.slide-1' + nextSlide)
+          .classList.add("active");
+          document.
+          querySelector('.slide-' + activeSlide)
+          .classList.remove("active");
+        }
+    }, transitionWait * 1000);
+}
+changeSlide();
+//

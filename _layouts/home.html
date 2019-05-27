@@ -2,8 +2,23 @@
 layout: default
 ---
 
-<div id="home-slider" class="" >
+<div id="home-title">
 
+  {% for item in page.slider %}
+
+    <div id="" class="slide slide-{{ item.number }}
+
+      {% if item.number == 1 %}
+        active
+      {% endif %}
+
+    "
+
+    style="background-image: linear-gradient(179deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.40) 20%, rgba(0,0,0,0.40) 100%), url({{ site.baseurl }}{{ item.image }});">
+
+    </div>
+
+  {% endfor %}
   <h1 class="yellow">{{ page.slogan }}</h1>
 
 </div>

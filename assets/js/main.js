@@ -79,36 +79,17 @@ function sideScroll(element,direction,speed,distance,step){
 
 // Slider
 
-var numSlides, activeSlide, nextSlide, transitionWait;
+let numSlides = 5;
+let activeSlide = 1;
+let transitionWait = 5;
 
-numSlides = 5;
-activeSlide = 1;
-transitionWait = 5;
+function rotateSlides() {
+  const oldSlide = document.querySelector(`#home-title .slide-${activeSlide}`);
+  activeSlide = activeSlide === numSlides ? 1 : activeSlide + 1;
+  const newSlide = document.querySelector(`#home-title .slide-${activeSlide}`);
 
-function changeSlide() {
-    setTimeout(function(){
-        if (activeSlide < numSlides) {
-            nextSlide = activeSlide + 1;
-            document.querySelector("#home-title .slide-" + nextSlide)
-            .classList.add("active");
-            // console.log(activeSlide);
-            document.
-            querySelector("#home-title .slide-" + activeSlide)
-            .classList.remove("active");
-        } else {
-
-
-          document.querySelector("#home-title .slide-" + activeSlide)
-          .classList.remove("active");
-
-          document.querySelector("#home-title .slide-1")
-          .classList.add("active");
-
-          activeSlide = 1;
-        }
-        activeSlide += 1;
-        // console.log(activeSlide);
-        changeSlide();
-    }, transitionWait * 1000);
+  oldSlide.classList.remove("active");
+  newSlide.classList.add("active");
 };
-changeSlide();
+
+setInterval(rotateSlides, transitionWait * 1000);

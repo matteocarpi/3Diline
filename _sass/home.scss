@@ -64,5 +64,22 @@ section#story {
 
   #story-content {
     max-width: 500px;
+    padding: 1rem;
   }
+}
+
+#professionalità {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+  .handshake {
+    margin-top: 3rem;
+  }
+}
+
+#our-brands {
+  margin-top: 5rem;
 }

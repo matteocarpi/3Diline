@@ -2,26 +2,36 @@
 layout: default
 ---
 <div id="" class="page-title-slide" >
+
 </div>
-
 <div id="" class="brand-display">
-  <div id="side-model-bambino" class="side-model" style="background-image: url({{ site.baseurl }}/assets/model.jpg)">
-
+  <div id="side-model-uomo" class="side-model" style="background-image: url({{ site.baseurl }}{{ page.side-model }})">
   </div>
-
   <div id="" class="brands" >
 
-    <img src="" alt="">
-    {% assign calzature-bambino = "" | split: ',' %}
+    {% assign section-name = page.section-name %}
+    {% assign brands = "" | split: ',' %}
     {% for item in site.data.brands %}
-      {% if item.section contains "b" %}
-      {% assign calzature-bambino = calzature-bambino | push:item %}
+      {% if item.section contains section-name %}
+        {% assign brands = brands | push:item %}
       {% endif %}
     {% endfor %}
 
-    {% for item in calzature-bambino %}
+    {% assign brands-ordered = "" | split: ',' %}
+    {% assign i = 0 %}
+
+    {% for item in brands %}
+
+      {% if item.name == site.data.brands-ordine.kid[i] %}
+        {% assign brands-ordered = brands-ordered | push:item %}
+      {% endif %}
+
+      {% assign i = i | plus:1 %}
+    {% endfor %}
+
+    {% for item in brands-ordered %}
     {% assign position = forloop.index | modulo:3 %}
-      {% if item.section contains "b" %}
+      {% if item.section contains section-name %}
       {% assign position = forloop.index | modulo:3 %}
         {% if position == 0 %}
         <div class="brand-wrap">

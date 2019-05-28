@@ -16,6 +16,7 @@ body {
 h1, h2, h3, h4 {
   font: 100% $titles;
   text-align: center;
+  margin: 0;
 }
 h1 {
   font-size: 40px;
@@ -176,7 +177,6 @@ div.brand:hover {
     opacity: 1;
   }
 
-
 }
 p.brand-text {
   margin: 2rem;
@@ -211,5 +211,5 @@ p.brand-text {
 }
 .page-title-slide {
   height: 80vh;
-  background-color: orange;
+  background-image: $blue-gradient;
 }

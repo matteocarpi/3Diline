@@ -194,8 +194,7 @@ p.brand-text {
 // Desktop
 @media screen and (min-width: 768px) {
   div.brand-description {
-    max-width: 1000px;
-
+    width: 700px;
   p.brand-text {
     max-width: 670px;
   }

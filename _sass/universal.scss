@@ -136,6 +136,9 @@ div.brand {
   align-items: center;
   width: min-content;
 }
+img.brand-logo {
+  transition: 0.3s ease-out;
+}
 
 div.brand-description {
   visibility: hidden;
@@ -150,7 +153,6 @@ div.brand-description {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 2rem;
   margin-bottom: -2rem;
 }
 
@@ -167,10 +169,14 @@ div.brand-description {
   bottom: 0;
 }
 div.brand:hover {
+  img.brand-logo {
+    transform: scale(1.3);
+  }
   cursor: pointer;
   div.brand-description {
   visibility: visible;
   opacity: 1;
+  padding-top: 2rem;
   }
   div.arrow-up, div.arrow-up-cover {
     visibility: visible;

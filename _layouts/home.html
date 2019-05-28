@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-<div id="home-title">
+<div id="home-title parallax-layer parallax">
 
   {% for item in page.slider %}
 
@@ -23,43 +22,13 @@ layout: default
 
 </div>
 
-<section class="offer">
-  <h2 class="red">La Nostra Offerta</h2>
+<section id="story" class="parallax" style="background-image: url({{ site.baseurl }}/assets/story-background.png);">
 
-  <div id="" class="wings" >
-
-
-      <div class="wing" style="background-image: linear-gradient(179deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.40) 20%, rgba(0,0,0,0.40) 100%), url(https://source.unsplash.com/random);">
-        <h3 class="yellow section">Calzature</h3>
-
-        <div id="" class="sub-section">
-          <a href="/calzature/uomo"> <h4 class="yellow">Uomo</h3></a>
-          <a href="/calzature/donna"> <h4 class="yellow">Donna</h3></a>
-          <a href="/calzature/bambino"> <h4 class="yellow">Bambino</h3></a>
-        </div>
-      </div>
-
-
-      <div class="wing" style="background-image: linear-gradient(179deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.40) 20%, rgba(0,0,0,0.40) 100%), url(https://source.unsplash.com/random);">
-        <h3 class="yellow section">Pelletteria</h3>
-
-        <div id="" class="sub-section">
-          <a href="/pelletteria/borse-da-donna"> <h4 class="yellow">Borse da Donna</h3></a>
-          <a href="/pelletteria/cartelle-profesionali"> <h4 class="yellow">Cartelle Professionali</h4></a>
-          <a href="/pelletteria/piccola-pelletteria"> <h4 class="yellow">Piccola Pelletteria</h4></a>
-        </div>
-      </div>
-
-      <a class="wing" href="/valigeria" style="background-image: linear-gradient(179deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.40) 20%, rgba(0,0,0,0.40) 100%), url(https://source.unsplash.com/random);">
-        <h3 class="yellow">Valigeria</h3>
-      </a>
-
+  <div id="story-content" class="story">
+    <h1 class="yellow">{{ page.story.title }}</h1>
+    <p class="white">{{ page.story.copy }}</p>
   </div>
-</section>
 
-<section id="story">
-  <h1 class="yellow">{{ page.story.title }}</h1>
-  <p class="white">{{ page.story.copy }}</p>
 </section>
 
 <section id="our-brands">
@@ -80,7 +49,7 @@ layout: default
 
       </div>
 
-    <img id="carousel-arrow-right" src="/assets/arrow-right.png" alt="">
+    <img id="carousel-arrow-right" src="{{ site.baseurl }}/assets/arrow-right.png" alt="">
 
   </div>
 

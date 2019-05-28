@@ -1,35 +1,38 @@
 header {
   position: absolute;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   margin-top: 1rem;
   z-index: 1;
-  right: 0;
   * {
     color: white;
+    width: 33.33%;
   }
 }
-
-.fab.fa-facebook-f {
-  font-size: 30px;
+header:after {
+  content: '';
+  flex-grow: 1;
 }
 
 @media screen and (min-width: 768px) {
   ul#large-menu {
     display: flex;
     list-style: none;
+    align-items: center;
   }
 }
-
+.fab.fa-facebook-f {
+  font-size: 30px;
+}
 a {
   font: 100% $text;
   text-decoration: none;
 }
 
 ul {
-  list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding-left: 0;
 }
 
@@ -40,6 +43,12 @@ li {
   position: relative;
   text-decoration: none;
   transition-duration: 0.5s;
+  span.nav-link {
+    cursor: default;
+  }
+  .nav-link {
+    text-transform: uppercase;
+  }
 }
 
 ul li ul {
@@ -49,7 +58,7 @@ ul li ul {
   position: absolute;
   transition: all 0.5s ease;
   margin-top: 1rem;
-  left: 0;
+  left: 1rem;
   display: none;
 }
 
@@ -69,11 +78,6 @@ ul li ul:hover {
   display: block;
   z-index: 1;
   background-color: rgba(000, 000, 000, 0.5);
-}
-ul#large-menu {
-  position: absolute;
-  left: 36.5%;
-  margin-top: 1rem;
 }
 a.logo {
   img {

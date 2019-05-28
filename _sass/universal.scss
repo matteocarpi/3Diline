@@ -92,6 +92,19 @@ footer {
   flex-shrink: 0;
 }
 
+.brand-display {
+  display: flex;
+
+  .side-model {
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+  }
+  .brands {
+    width: 80%;
+    padding: 4rem 0;
+  }
+}
 img.brand-logo {
   max-width: 250px;
 }

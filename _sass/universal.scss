@@ -109,6 +109,7 @@ footer {
 img.brand-logo {
   max-width: 250px;
   max-height: 150px;
+  margin: 5rem 0;
 }
 
 div.brands {
@@ -139,7 +140,7 @@ div.brand-description {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 100%;
+  bottom: 100%;
   background-color: white;
   z-index: 1;
   border: solid 1px;
@@ -149,6 +150,7 @@ div.brand-description {
   flex-direction: column;
   align-items: center;
   padding-bottom: 2rem;
+  margin-bottom: -2rem;
 }
 
 .arrow-up-cover {
@@ -161,6 +163,7 @@ div.brand-description {
   background-color: white;
   align-self: center;
   background-color: white;
+  bottom: 0;
 }
 div.brand:hover {
   cursor: pointer;
@@ -187,16 +190,19 @@ p.brand-text {
   border: solid 1px;
   transform: rotate(45deg);
   position: absolute;
-  top: -15px;
   left: 48.5%;
   z-index: 2;
-  top: -16px;
+  bottom: -16px;
   background-color: white;
+}
+
+.brand-list-fix {
+  width: 300px;
 }
 // Desktop
 @media screen and (min-width: 768px) {
   div.brand-description {
-    width: 700px;
+    width: 1000px;
   p.brand-text {
     max-width: 670px;
   }

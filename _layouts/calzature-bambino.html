@@ -112,5 +112,13 @@ layout: default
       {% endif %}
     {% endfor %}
 
+    {% assign numBrands = brands | size | plus:1 | modulo:3 %}
+
+    {% if numBrands != 0 %}
+      <div id="" class="brand-list-fix" >
+
+      </div>
+    {% endif %}
+
   </div>
 </div>

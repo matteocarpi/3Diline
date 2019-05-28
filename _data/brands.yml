@@ -87,7 +87,7 @@
   url: "https://www.fratelliperez.it/"
   img-men:
   img-women:
-  section: [u, d]
+  section: [u]
 - name: "Wrangler"
   logo: "/assets/brand-logos/wrangler.png"
   copy: |-
@@ -96,6 +96,14 @@
   img-men:
   img-women:
   section: [u, d]
+- name: "Albano"
+  logo: "/assets/brand-logos/albano.png"
+  copy: |-
+    La filosofia di Albano è creare modelli e collezioni che conservino intatto il proprio fascino sottraendosi alla fugacità del glamour da capricciosa fashionista. Modelli esclusivi per le più esigenti attitude che interpretano una femminilità complessa e multi sfaccettata, sempre ammaliatrice, il leitmotiv di serate mondane, aperitivi informali, riunioni di lavoro.
+  url: "https://www.albano.it"
+  img-men:
+  img-women:
+  section: [d]
 - name: "Nike"
   logo: "/assets/brand-logos/nike.png"
   copy: |-
@@ -175,3 +183,9 @@
   img-men:
   img-women:
   section: [v, bd, pp]
+- ordine-man: [Nero Giardini, Melluso, Geox, Valleverde, Callaghan, Frau, 24h, Cristiano Gualtieri, Perez, Wrangler, Nike, Adidas, Hawaianas]
+- ordine-woman: [Nero Giardini, Melluso, Geox, Valleverde, Callaghan, 24h, Frau, Wrangler, Albano, Nike, Adidas, Hawaianas]
+- ordine-kid: [Nero Giardini, Geox, Balducci, Nike, Adidas, Hawaianas]
+- ordine-cartelle: [The Bridge, Piquadro, Roncato, Samsonite]
+- ordine-borse-donna: [Nero Giardini, Melluso, The Bridge, Graziella Braccialini, Piquadro, Roncato]
+- ordine-pelletteria: [Piquadro, The Bridge, Roncato, Samsonite, Graziella Braccialini]

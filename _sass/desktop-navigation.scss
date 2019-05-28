@@ -5,7 +5,8 @@ header {
   width: 100%;
   margin-top: 1rem;
   z-index: 1;
-
+  padding: 1rem;
+  right: 0;
   * {
     color: white;
   }
@@ -23,6 +24,7 @@ header {
 }
 
 a {
+  font-family: 100% $text;
   text-decoration: none;
 }
 
@@ -69,19 +71,19 @@ ul li ul:hover {
   z-index: 1;
   background-color: rgba(000, 000, 000, 0.5);
 }
-
-header {
-  display: flex;
-  padding: 1rem;
-}
 ul#large-menu {
   position: absolute;
-  left: 36%;
+  left: 36.5%;
   margin-top: 1rem;
 }
-img.logo {
-  max-width: 200px;
+a.logo {
+  img {
+    max-width: 200px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
 }
+
 li {
   white-space: nowrap;
 }

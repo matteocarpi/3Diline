@@ -40,6 +40,17 @@
       background-color: white;
     }
   }
+
+  // Home
+
+  #professionalità {
+    justify-content: space-around;
+    margin: 5rem 0;
+    
+    .handshake {
+      transform: scale(1.5);
+    }
+  }
 }
 
 // Tablet

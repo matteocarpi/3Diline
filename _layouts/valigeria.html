@@ -18,21 +18,20 @@ layout: default
     {% endfor %}
 
     {% assign brands-ordered = "" | split: ',' %}
-    {% assign i = 0 %}
 
-    {% for item in brands %}
+    {% for ordered-item in site.data.brands-ordine.valigeria %}
+      {% for item in brands %}
+        {% if ordered-item == item.name %}
 
-      {% if item.name == site.data.brands-ordine.valigie[i] %}
-        {% assign brands-ordered = brands-ordered | push:item %}
-      {% endif %}
+          {% assign brands-ordered = brands-ordered | push:item %}
 
-      {% assign i = i | plus:1 %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
 
     {% for item in brands-ordered %}
     {% assign position = forloop.index | modulo:3 %}
       {% if item.section contains section-name %}
-      {% assign position = forloop.index | modulo:3 %}
         {% if position == 0 %}
         <div class="brand-wrap">
           <div id="" class="brand" >
@@ -55,7 +54,7 @@ layout: default
 
               <div id="" class="arrow-up-cover" >
               </div>
-              
+
             </div>
           </div>
         </div>
@@ -112,17 +111,27 @@ layout: default
       </div>
       {% endif %}
 
-
-
       {% endif %}
     {% endfor %}
 
-    {% assign numBrands = brands | size | plus:1 | modulo:3 %}
+    {% assign numBrands = brands | size | modulo:3 %}
 
-    {% if numBrands != 0 %}
+    {% if numBrands == 0 %}
+
       <div id="" class="brand-list-fix" >
 
       </div>
+
+    {% elseif numBrands == 2 %}
+
+      <div id="" class="brand-list-fix" >
+
+      </div>
+
+      <div id="" class="brand-list-fix" >
+
+      </div>
+
     {% endif %}
   </div>
 </div>

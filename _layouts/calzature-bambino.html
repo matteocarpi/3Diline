@@ -18,15 +18,15 @@ layout: default
     {% endfor %}
 
     {% assign brands-ordered = "" | split: ',' %}
-    {% assign i = 0 %}
 
-    {% for item in brands %}
+    {% for ordered-item in site.data.brands-ordine.kid %}
+      {% for item in brands %}
+        {% if ordered-item == item.name %}
 
-      {% if item.name == site.data.brands-ordine.kid[i] %}
-        {% assign brands-ordered = brands-ordered | push:item %}
-      {% endif %}
+          {% assign brands-ordered = brands-ordered | push:item %}
 
-      {% assign i = i | plus:1 %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
 
     {% for item in brands-ordered %}

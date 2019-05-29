@@ -65,12 +65,19 @@ text-align: center;
     * {
       display: none !important;
     }
+
   }
 
   a.logo img {
     margin-left: 1rem;
   }
-  
+
+  .second-level {
+    .second-level-item {
+      padding: 0.5rem;
+    }
+  }
+
 }
 
 // Smartphone

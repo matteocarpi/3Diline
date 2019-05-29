@@ -17,7 +17,7 @@
 
 #quit{
   position: fixed;
-  top: 0;
+  top: 1%;
   color: white;
   font-size: 32px;
   padding: 25px;
@@ -32,14 +32,13 @@
   flex-direction: column;
   width: 100vw;
   height: 50vh;
-  padding: 25vh 0;
   z-index: 10;
 }
 
-#links a{
+#links .menu-item{
   text-decoration: none;
   color: white;
-  font-size: 2em;
+  font-size: 0.5em;
   font: 100% $text;
   z-index: 10;
   padding: 1rem 0 3rem 0 ;

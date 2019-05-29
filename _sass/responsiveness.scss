@@ -78,8 +78,57 @@ text-align: center;
     }
   }
 
+  // Brand Pages
+  .page-title-slide {
+    justify-content: center;
+
+    .title-content {
+      align-items: center;
+      justify-content: space-around;
+      height: 50%;
+      .page-title {
+        position: relative;
+        right: 0;
+        top: 0;
+      }
+      .shoe {
+        align-self: center;
+      }
+    }
+  }
+  .page-title-slide.pelletteria {
+    padding: 0;
+  }
+  .pelletteria-title-content {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    width: 100%;
+    .page-title {
+      margin: 0;
+    }
+  }
+  // contatti
+
+  #contatti {
+    flex-direction: column-reverse;
+    width: 100%;
+
+    iframe.map {
+      margin-top: 4rem;
+    }
+    #contact-info {
+      img.logo {
+        margin: 2rem 0;
+      }
+    }
+  }
 }
 
 // Smartphone
 @media screen and (max-width: 375px){
+  .side-model {
+    display: none;
+  }
+
 }

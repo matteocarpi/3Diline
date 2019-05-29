@@ -112,7 +112,7 @@ footer {
 img.brand-logo {
   max-width: 250px;
   max-height: 150px;
-  margin: 5rem 0;
+  margin: 8% 0;
 }
 
 div.brands {
@@ -243,13 +243,21 @@ p.brand-text {
     }
   }
 
+  img.shoe {
+    width: 90%;
+    max-width: 850px;
+  }
+  img.pelletteria {
+    width: 70%;
+    max-width: 500px;
+  }
 }
 .page-title-slide.pelletteria {
   justify-content: center;
   padding-top: 6rem;
 }
 .pelletteria-title-content {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;

@@ -1,15 +1,26 @@
-#contatti-wrap {
+#contatti-background {
   background-image: $blue-gradient;
-  margin-top: 0;
-  padding: 10rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#contatti-wrap {
+  flex-shrink: 0;
+  padding-top: 10rem;
+  width: 80%;
+  max-width: 1400px;
+  * {
+    flex-shrink: 0;
+  }
 }
 #contatti {
   margin: 4rem 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   * {
-    width: 50%;
+    max-width: 90%;
   }
 }
 #contact-info {

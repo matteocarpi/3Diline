@@ -1,7 +1,7 @@
 #burger{
   position: fixed;
   right: -25%;
-  top: 1%;
+  top: 0;
   color: black;
   font-size: 32px;
   padding: 25px 25px 32px 32px;
@@ -17,7 +17,7 @@
 
 #quit{
   position: fixed;
-  top: 1%;
+  top: 0;
   color: white;
   font-size: 32px;
   padding: 25px;
@@ -55,5 +55,5 @@ div#links ul {
 ul.mobile-menu {
     position: fixed;
     top: 10%;
-    left: 27%;
+    left: 20%;
 }

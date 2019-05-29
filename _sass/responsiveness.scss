@@ -1,5 +1,11 @@
 //Large screen
 @media screen and (min-width: 769px){
+  // Fonts
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+text-align: center;
+  }
   #links, #burger, #quit {
     display: none;
   }

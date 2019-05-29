@@ -216,6 +216,27 @@ p.brand-text {
 
 }
 .page-title-slide {
+  min-height: 575px;
   height: 80vh;
   background-image: $blue-gradient;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.title-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 1200px;
+  margin-bottom: 7%;
+}
+.shoe {
+  align-self: flex-start;
+}
+.page-title {
+  position: absolute;
+  right: 5%;
+  top: -10%;
 }

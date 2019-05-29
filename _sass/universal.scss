@@ -117,7 +117,7 @@ div.brands {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
 }
 div.brand-wrap {
@@ -216,31 +216,53 @@ p.brand-text {
 
 }
 .page-title-slide {
-  min-height: 575px;
+  min-height: 607px;
   height: 80vh;
   background-image: $blue-gradient;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+
+  .title-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1500px;
+    margin-bottom: 7%;
+    .shoe {
+      align-self: flex-start;
+    }
+    .page-title {
+      position: absolute;
+      right: 5%;
+      top: -10%;
+    }
+  }
+
 }
-.title-content {
-  position: relative;
+.page-title-slide.pelletteria {
+  justify-content: center;
+  padding-top: 6rem;
+}
+.pelletteria-title-content {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  width: 90%;
-  max-width: 1500px;
-  margin-bottom: 7%;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  .page-title {
+    margin-bottom: 8rem;
+  }
+  .pelletteria {
+    max-width: 550px;
+  }
 }
-.shoe {
-  align-self: flex-start;
-}
-.page-title {
-  position: absolute;
-  right: 5%;
-  top: -10%;
-}
-.page-title-slide-version-background {
+
+.page-title-slide-background {
+  background-position: center;
+  background-size: cover;
   min-height: 575px;
   height: 80vh;
   background-image: $blue-gradient;

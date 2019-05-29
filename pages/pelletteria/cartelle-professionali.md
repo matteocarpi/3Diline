@@ -3,5 +3,6 @@ layout: "cartelle-professionali"
 title: "Cartelle Professionali"
 permalink: "/pelletteria/cartelle-professionali"
 section-name: "cp"
-side-model: "/assets/model.jpg"
+title-image: "/assets/backgrounds-pages/cartelle-professionali.jpg"
+side-model: "/assets/backgrounds-pages/model-cartelle.jpg"
 ---

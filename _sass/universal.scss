@@ -100,11 +100,13 @@ footer {
   .side-model {
     width: 20%;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
   }
   .brands {
     width: 80%;
     padding: 4rem 0;
+    margin: 0 auto;
   }
 }
 img.brand-logo {

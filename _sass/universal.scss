@@ -91,7 +91,7 @@ img {
     width: 20%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
   }
   .brands {
     width: 80%;
@@ -141,6 +141,7 @@ div.brand-description {
   z-index: 1;
   border: solid 1px;
   max-width: 1000px;
+  width: 75vw;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -198,7 +199,7 @@ p.brand-text {
   width: 300px;
 }
 // Desktop
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   div.brand-description {
     width: 1000px;
   p.brand-text {

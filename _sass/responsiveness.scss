@@ -52,7 +52,7 @@ text-align: center;
 }
 
 // Tablet
-@media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
   ul#large-menu {
     display: none;
 
@@ -60,6 +60,15 @@ text-align: center;
       display: none !important;
     }
 
+  }
+
+  div.brand-wrap {
+    flex: 0 0 0%;
+  }
+
+  div.brands {
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 
   a.logo img {
@@ -117,14 +126,13 @@ text-align: center;
       }
     }
   }
-
+  .side-model {
+    display: none;
+  }
   // Footer
 }
 
 // Smartphone
 @media screen and (max-width: 375px){
-  .side-model {
-    display: none;
-  }
 
 }

@@ -240,3 +240,12 @@ p.brand-text {
   right: 5%;
   top: -10%;
 }
+.page-title-slide-version-background {
+  min-height: 575px;
+  height: 80vh;
+  background-image: $blue-gradient;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

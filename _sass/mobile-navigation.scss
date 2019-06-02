@@ -48,6 +48,11 @@
 div#links ul {
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
+
+  li {
+    text-transform: uppercase;
+  }
 }
 .second-level {
   // display: none;

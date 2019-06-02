@@ -22,6 +22,31 @@ layout: default
 
 </div>
 
+<section id="our-brands">
+
+  <h2 class="red">I Nostri Brand</h2>
+
+  <div id="brands-carousel-wrap">
+
+    <img id="carousel-arrow-left" src="{{ site.baseurl }}/assets/arrow-left.png" alt="">
+
+      <div id="brands-carousel" class="" >
+
+        {% for item in site.data.brands %}
+
+          <a target="_blank" href="{{ item.url }}"><img class="brand" src="{{ site.baseurl }}{{ item.logo }}" alt=""></a>
+
+        {% endfor %}
+
+      </div>
+
+    <img id="carousel-arrow-right" src="{{ site.baseurl }}/assets/arrow-right.png" alt="">
+
+  </div>
+
+</section>
+
+
 <section id="story" class="" style="background-image: url({{ site.baseurl }}/assets/story-background.png);">
 
   <div id="story-content" class="story">
@@ -56,29 +81,5 @@ layout: default
         </g>
     </g>
   </svg>
-
-</section>
-
-<section id="our-brands">
-
-  <h2 class="red">I Nostri Brand</h2>
-
-  <div id="brands-carousel-wrap">
-
-    <img id="carousel-arrow-left" src="{{ site.baseurl }}/assets/arrow-left.png" alt="">
-
-      <div id="brands-carousel" class="" >
-
-        {% for item in site.data.brands %}
-
-          <a target="_blank" href="{{ item.url }}"><img class="brand" src="{{ site.baseurl }}{{ item.logo }}" alt=""></a>
-
-        {% endfor %}
-
-      </div>
-
-    <img id="carousel-arrow-right" src="{{ site.baseurl }}/assets/arrow-right.png" alt="">
-
-  </div>
 
 </section>

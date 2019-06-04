@@ -142,7 +142,7 @@ div.brand-description {
   background-image: $blue-gradient;
   color: white;
   z-index: 1;
-  max-width: 1000px;
+  max-width: 700px;
   width: 75vw;
   margin-top: 30px;
   display: flex;
@@ -150,6 +150,8 @@ div.brand-description {
   align-items: center;
   margin-bottom: -2rem;
   transition: 0.3s ease-in-out;
+  padding: 0 1rem 1rem 1rem;
+  border-radius: 20px;
 }
 .arrow-up {
   visibility: hidden;
@@ -173,6 +175,7 @@ div.brand-description {
   background-image: $blue-gradient;
   align-self: center;
   bottom: 0;
+  border-radius: 20px;
 }
 div.brand:hover {
   img.brand-logo {
@@ -182,7 +185,7 @@ div.brand:hover {
   div.brand-description {
   visibility: visible;
   opacity: 1;
-  padding-top: 2rem;
+  padding-bottom: 1rem;
   }
   div.arrow-up, div.arrow-up-cover {
     visibility: visible;

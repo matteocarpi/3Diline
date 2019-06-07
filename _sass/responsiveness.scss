@@ -19,13 +19,11 @@ text-align: center;
         opacity: 0;
         width: 30px;
         height: 30px;
-        border: solid 1px;
         transform: rotate(45deg);
         position: absolute;
         bottom: -15px;
         left: 10%;
         z-index: 2;
-        background-color: white;
     }
   }
   div.brand-description.right {
@@ -35,13 +33,11 @@ text-align: center;
       opacity: 0;
       width: 30px;
       height: 30px;
-      border: solid 1px;
       transform: rotate(45deg);
       position: absolute;
       left: 86%;
       z-index: 2;
       bottom: -16px;
-      background-color: white;
     }
   }
 

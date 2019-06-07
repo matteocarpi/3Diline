@@ -11,8 +11,6 @@ slider:
     image: "/assets/carousel-home/home-carousel-3.jpg"
   - number: 4
     image: "/assets/carousel-home/home-carousel-4.jpg"
-  - number: 5
-    image: "/assets/carousel-home/home-carousel-5.jpg"
 slogan: |-
   Da 4 Generazioni
   Passione e Professionalità

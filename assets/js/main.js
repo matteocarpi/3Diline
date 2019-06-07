@@ -79,7 +79,7 @@ function sideScroll(element,direction,speed,distance,step){
 
 // Slider
 
-let numSlides = 5;
+let numSlides = 4;
 let activeSlide = 1;
 let transitionWait = 5;
 

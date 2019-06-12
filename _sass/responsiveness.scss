@@ -4,7 +4,7 @@
   h1 {
     font-size: 60px;
     font-weight: 700;
-text-align: center;
+    text-align: center;
   }
   #links, #burger, #quit {
     display: none;
@@ -58,6 +58,13 @@ text-align: center;
 
   }
 
+  section#story {
+    flex-direction: column-reverse;
+
+    #story-content-wrap, #story-picture {
+      width: 100%;
+    }
+  }
   div.brand-wrap {
     flex: 0 0 auto;
   }
@@ -109,18 +116,23 @@ text-align: center;
   }
   // contatti
 
+
   #contatti {
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
 
-    iframe.map {
-      margin-top: 4rem;
-    }
     #contact-info {
       img.logo {
         margin: 2rem 0;
       }
+      .orari {
+        margin-top: 2rem;
+        p {
+          margin: 1rem 0;
+        }
+      }
     }
+
   }
   .side-model {
     display: none;

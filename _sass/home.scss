@@ -57,18 +57,32 @@
   transition: 1.5s;
 }
 
-section#story:before {
-  content: '';
-}
 section#story {
+  width: 100%;
   min-height: 500px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  background-position: center;
-  #story-content {
-    max-width: 500px;
+  align-items: stretch;
+
+  #story-content-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
     padding: 1rem;
+    background-image: $blue-gradient;
+    min-height: 100%;
+    width: 40%;
+  }
+
+  #story-content {
+    width: 90%;
+  }
+  #story-picture {
+    flex-grow: 1;
+    max-width: 800px;
+    width: 60%;
+    // padding-top: calc(60%*(3/4));
   }
 }
 

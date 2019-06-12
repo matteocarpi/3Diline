@@ -16,8 +16,7 @@ slogan: |-
   Passione e Professionalità
 story:
   title: "4 Generazioni di passione"
-  copy: "Have fun, together. Our tone of voice captures our personality and represents it in language. Fantastic teams are made up of empowered individuals. Leave a meaningful mark."
 professional:
-  title: "Professionalità"
-  copy: "Have fun, together. Our tone of voice captures our personality and represents it in language. Fantastic teams are made up of empowered individuals. Leave a meaningful mark."
+  title: "La Nostra Mission"
+  copy: "Professionalità ed assistenza alla clientela. Particolare attenzione a prodotti ad alta tecnologia e comfort. Da sempre … un passo avanti."
 ---

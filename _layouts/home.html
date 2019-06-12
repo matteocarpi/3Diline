@@ -13,7 +13,7 @@ layout: default
 
     "
 
-    style="background-image: linear-gradient(179deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.40) 20%, rgba(0,0,0,0.40) 100%), url({{ site.baseurl }}{{ item.image }});">
+    style="background-image: url({{ site.baseurl }}{{ item.image }});">
 
     </div>
 
@@ -46,11 +46,15 @@ layout: default
 </section>
 
 
-<section id="story" class="" style="background-image: url({{ site.baseurl }}/assets/story-background.png);">
+<section id="story">
 
-  <div id="story-content" class="story">
-    <h1 class="white">{{ page.story.title }}</h1>
-    <p class="white">{{ page.story.copy }}</p>
+  <div id="story-picture"   style="background-image: url({{ site.baseurl }}/assets/calzolaio-antico.jpg);">
+  </div>
+
+  <div id="story-content-wrap" class="story">
+    <div id="story-content" class="story">
+      <h1 class="white">{{ page.story.title }}</h1>
+    </div>
   </div>
 
 </section>

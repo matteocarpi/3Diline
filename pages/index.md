@@ -19,4 +19,9 @@ story:
 professional:
   title: "La Nostra Mission"
   copy: "Professionalità ed assistenza alla clientela. Particolare attenzione a prodotti ad alta tecnologia e comfort. Da sempre … un passo avanti."
+gallery:
+  - img: "/assets/carousel-home/home-carousel-1.jpg"
+  - img: "/assets/carousel-home/home-carousel-2.jpg"
+  - img: "/assets/carousel-home/home-carousel-3.jpg"
+  - img: "/assets/carousel-home/home-carousel-4.jpg"
 ---

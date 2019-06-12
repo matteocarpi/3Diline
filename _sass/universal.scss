@@ -120,6 +120,9 @@ div.brand-wrap {
   flex-direction: column;
   align-items: center;
 }
+div.brand-wrap.cartelle-professionali {
+  flex: 0 0 50%;
+}
 div.brand {
   margin-bottom: 2rem;
   text-align: center;
@@ -190,9 +193,7 @@ img.brand-logo {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-around;
-  .page-title {
-    margin-bottom: 8rem;
-  }
+
   .pelletteria {
     max-width: 550px;
   }

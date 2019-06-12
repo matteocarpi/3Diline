@@ -9,6 +9,9 @@ header {
     color: white;
     width: 33.33%;
   }
+  li {
+    float: left;
+  }
 }
 header:after {
   content: '';
@@ -38,7 +41,6 @@ ul {
 
 li {
   display: block;
-  float: left;
   padding: 13px;
   position: relative;
   text-decoration: none;
@@ -58,8 +60,7 @@ ul li ul {
   min-width: 5rem;
   position: absolute;
   transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 1rem;
+  padding-top: 0.3rem;
   display: none;
 }
 

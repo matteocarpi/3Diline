@@ -1,40 +1,27 @@
-{% for item in brands-ordered %}
-{% assign position = forloop.index | modulo:3 %}
-  {% if item.section contains section-name %}
-  {% assign position = forloop.index | modulo:3 %}
-    {% if position == 0 %}
-    <div class="brand-wrap">
-      <div id="" class="brand" >
+{% for brand in brands-ordered %}
+
+  <div class="brand-wrap
+
+    {% if page.url contains "cartelle" %}
+      cartelle-professionali
+    {% endif %}
 
 
-
-        <img class="brand-logo"src="{{ site.baseurl }}{{ item.logo }}" alt="">
-
-      </div>
-    </div>
-
-  {% elsif position == 1 %}
-
-  <div class="brand-wrap">
+  ">
     <div id="" class="brand" >
 
-      <img class="brand-logo"src="{{ site.baseurl }}{{ item.logo }}" alt="">
+
+      <img class="brand-logo
+
+        {% if brand.name == "Albano" or brand.name == "Piquadro" or brand.name == "Cristiano Gualtieri" %}
+
+          big-logo
+
+        {% endif %}
+
+        "src="{{ site.baseurl }}{{ brand.logo }}" alt="">
 
     </div>
   </div>
 
-  {% elsif position == 2 %}
-
-  <div class="brand-wrap">
-    <div id="" class="brand" >
-
-      <img class="brand-logo"src="{{ site.baseurl }}{{ item.logo }}" alt="">
-
-    </div>
-  </div>
-
-  {% endif %}
-
-
-  {% endif %}
 {% endfor %}

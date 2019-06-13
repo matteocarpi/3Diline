@@ -69,7 +69,6 @@ section#story {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    background-image: $blue-gradient;
     min-height: 100%;
     width: 40%;
   }
@@ -77,6 +76,9 @@ section#story {
   #story-content {
     width: 90%;
     margin: 1rem 0;
+    h1 {
+      text-transform: none;
+    }
   }
   #story-picture {
     flex-grow: 1;

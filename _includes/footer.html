@@ -6,7 +6,7 @@
     <div id="contact-info" class="white" >
      <p class="indirizzo">{{ site.indirizzo | markdownify }}</p>
      <br>
-     <p>{{ site.tel }}</p>
+     <a class="white" href="tel:{{ site.tel }}">{{ site.tel }}</a>
      <p><a class="white" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     </div>
 

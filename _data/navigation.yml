@@ -20,5 +20,7 @@
       link: /pelletteria/cartelle-professionali
     - name: "Piccola Pelletteria"
       link: /pelletteria/piccola-pelletteria
+- name: Gallery
+  link: /gallery
 - name: "Contatti"
   link: /contatti

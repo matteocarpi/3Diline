@@ -1,13 +1,16 @@
 .small {
-  width: 250px;
+  width: 300px;
+  margin: 0.3rem;
 }
 .gallery {
+  margin: 0 auto;
   width: 90%;
   max-width: 1440px;
+
+.gallery-pictures {
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
-  h1 {
-    margin: 7rem auto 1rem auto;
-  }
+  justify-content: center;
+}
 }

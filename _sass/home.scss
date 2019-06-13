@@ -99,13 +99,20 @@ section#story {
   margin: 5rem auto;
   max-width: 1000px;
   .professionalità-text {
+    h2.mission {
+      font-size: 35px;
+    }
+    p.mission {
+      font-size: 27px;
+    }
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 600px;
   }
   .handshake {
     margin-top: 3rem;
   }
+
 }
 
 #our-brands {

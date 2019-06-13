@@ -1,5 +1,12 @@
+---
+layout: default
+---
+
+<div class="page-title-slide">
+  <h1 class="white title">GALLERY</h1>
+</div>
+
 <div id="" class="gallery" >
-  <h1 class="red">GALLERY</h1>
   <div class="gallery-pictures">
     {% for item in page.gallery %}
       <a data-fancybox="gallery" href="{{ site.baseurl }}{{ item.img }}"><img class="small" src="{{ site.baseurl }}{{ item.img }}"></a>

@@ -158,13 +158,16 @@ img.brand-logo {
 
 }
 .page-title-slide {
-  min-height: 607px;
-  height: 80vh;
+  min-height: 300px;
   background-image: $blue-gradient;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+
+  h1.white.title {
+    padding-top: 4rem;
+  }
 
   .title-content {
     position: relative;

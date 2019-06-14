@@ -13,11 +13,17 @@ body {
   flex: 1 0 0;
 }
 
-h1, h2, h3, h4 {
+h2, h3, h4 {
   font: 100% $titles;
   text-align: center;
   margin: 0;
   text-transform: uppercase;
+}
+h1 {
+  font: 100% $titles;
+  text-align: center;
+  margin: 0;
+  text-transform: capitalize;
 }
 h1 {
   font-size: 30px;
@@ -166,6 +172,7 @@ img.brand-logo {
   justify-content: center;
 
   h1.white.title {
+    text-transform: capitalize;
     padding-top: 4rem;
   }
 

@@ -1,3 +1,20 @@
+div#gallery-title {
+max-height: 80vh;
+overflow: hidden;
+position: relative;
+
+  h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+  }
+}
+
+video#video-background {
+    margin-top: -20%;
+}
+
 .small {
   width: 300px;
   margin: 0.3rem;

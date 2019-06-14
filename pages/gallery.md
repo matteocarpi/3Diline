@@ -38,7 +38,6 @@ gallery:
   - img: "/assets/gallery/negozio-3diline-33.jpg"
   - img: "/assets/gallery/negozio-3diline-34.jpg"
   - img: "/assets/gallery/negozio-3diline-35.jpg"
-  - img: "/assets/gallery/negozio-3diline-26.jpg"
   - img: "/assets/gallery/negozio-3diline-36.jpg"
   - img: "/assets/gallery/negozio-3diline-37.jpg"
   - img: "/assets/gallery/negozio-3diline-38.jpg"

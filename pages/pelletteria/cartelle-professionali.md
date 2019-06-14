@@ -1,6 +1,6 @@
 ---
 layout: "cartelle-professionali"
-title: "Cartelle Professionali"
+title: "Cartelle professionali"
 permalink: "/pelletteria/cartelle-professionali"
 section-name: "cp"
 title-image: "/assets/backgrounds-pages/cartelle-professionali.jpg"

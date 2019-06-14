@@ -15,8 +15,8 @@ slogan: |-
   Da 4 Generazioni
   Passione e Professionalità
 story:
-  title: "4 Generazioni di Passione"
+  title: "4 generazioni di passione"
 professional:
-  title: "La Nostra Mission"
+  title: "La nostra mission"
   copy: "Professionalità ed assistenza alla clientela. Particolare attenzione a prodotti ad alta tecnologia e comfort. Da sempre … un passo avanti."
 ---

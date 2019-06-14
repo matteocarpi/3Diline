@@ -1,6 +1,6 @@
 ---
 layout: "borse-donna"
-title: "Borse da Donna"
+title: "Borse da donna"
 permalink: "/pelletteria/borse-da-donna"
 section-name: "bd"
 title-image: "/assets/backgrounds-pages/borse-donna.jpg"

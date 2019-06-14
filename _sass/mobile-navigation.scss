@@ -48,10 +48,10 @@
 div#links ul {
   display: flex;
   flex-direction: column;
-  text-transform: uppercase;
+  text-transform: capitalize;
 
   li {
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 }
 .second-level {

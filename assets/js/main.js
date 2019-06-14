@@ -80,7 +80,7 @@ function sideScroll(element,direction,speed,distance,step){
 // Slider
 
 let numSlides = 4;
-let activeSlide = 1;
+let activeSlide = 2;
 let transitionWait = 5;
 
 function rotateSlides() {

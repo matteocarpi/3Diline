@@ -33,7 +33,19 @@ layout: default
 
         {% for item in site.data.brands %}
 
-          <a target="_blank" href="{{ item.url }}"><img class="brand" src="{{ site.baseurl }}{{ item.logo }}" alt=""></a>
+          <a target="_blank" href="{{ item.url }}"><img class="brand
+
+            {% if item.name == "Albano" or item.name == "Piquadro" or item.name == "Cristiano Gualtieri" %}
+
+              big-logo
+
+              {% else %}
+
+              brand-logo
+
+            {% endif %}
+
+          " src="{{ site.baseurl }}{{ item.logo }}" alt=""></a>
 
         {% endfor %}
 

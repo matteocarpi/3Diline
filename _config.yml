@@ -16,7 +16,7 @@ address: |-
 logo: "/assets/img/Logo.png"
 description: ""
 permalink: /:title/
-baseurl: "/3Diline-preview"
+baseurl: ""
 url: "https://www.3diline.it"
 image: ""
 logo: "/assets/Logo.png"

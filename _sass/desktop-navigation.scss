@@ -1,97 +1,15 @@
-header {
-  position: absolute;
+.header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  z-index: 1;
-  * {
-    color: white;
-    width: 33.33%;
+  align-items: baseline;
+  justify-content: center;
+  border-bottom: solid 1px;
+  text-align: center;
+  flex-shrink: 0;
+}
+ul#large-menu {
+  display: flex;
+  list-style: none;
+  a.nav-link {
+  padding: 0 1rem;
   }
-  li {
-    float: left;
-  }
-}
-header:after {
-  content: '';
-  flex-grow: 1;
-}
-
-@media screen and (min-width: 768px) {
-  ul#large-menu {
-    display: flex;
-    list-style: none;
-    align-items: center;
-  }
-}
-.fab.fa-facebook-f {
-  font-size: 30px;
-  margin-left: 3rem;
-}
-a {
-  font: 100% $text;
-  text-decoration: none;
-}
-
-ul {
-  margin: 0 auto;
-  padding-left: 0;
-}
-
-li {
-  display: block;
-  padding: 13px;
-  position: relative;
-  text-decoration: none;
-  transition-duration: 0.5s;
-  span.nav-link {
-    cursor: default;
-  }
-  .nav-link {
-    text-transform: capitalize;
-    font-size: 20px;
-  }
-}
-
-ul li ul {
-  visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-  position: absolute;
-  transition: all 0.5s ease;
-  padding-top: 0.3rem;
-  display: none;
-}
-
-ul li ul li {
-  clear: both;
-  width: 100%;
-  a {
-    color: white;
-    text-transform: capitalize;
-  }
-}
-
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-  z-index: 1;
-  background-color: rgba(000, 000, 000, 0.5);
-  width: min-content;
-}
-a.logo {
-  img {
-    max-width: 200px;
-    min-width: 100px;
-    margin-left: 5rem;
-    margin-top: 2rem;
-  }
-}
-
-li {
-  white-space: nowrap;
 }

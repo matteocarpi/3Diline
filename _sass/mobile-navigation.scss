@@ -1,20 +1,17 @@
 #burger{
   position: fixed;
-  right: -25%;
+  right: 0;
   top: 0;
-  color: black;
+  color: white;
+  background: linear-gradient(
+      rgba(00, 00, 124, 0.8),
+      rgba(73, 146, 124, 0.9)
+      ),;
   font-size: 32px;
-  padding: 25px 25px 32px 32px;
+  padding: 16px 16px 32px 32px;
+  border-radius: 0% 0% 0% 100%;
   transition: 1s;
   cursor: pointer;
-  z-index: 5;
-}
-
-#burger.expanded {
-  background-image: linear-gradient(179deg, rgba(0,0,0,0.80) 0%, rgba(0,0,0,0.60) 20%, rgba(0,0,0,0.40) 100%), url("/3Diline-preview/assets/mobile-menu-background.jpg");
-  background-position: right top;
-  background-repeat: no-repeat;
-  color: white;
 }
 
 #quit{
@@ -22,10 +19,10 @@
   top: 0;
   color: white;
   font-size: 32px;
-  padding: 25px;
+  padding: 16px;
   display: none;
   cursor: pointer;
-  z-index: 11;
+  z-index: 1;
 }
 #links{
   position: fixed;
@@ -34,37 +31,15 @@
   flex-direction: column;
   width: 100vw;
   height: 50vh;
-  z-index: 10;
+  padding: 25vh 0;
 }
 
-#links .menu-item{
+#links a{
+  text-align: center;
   text-decoration: none;
   color: white;
-  font-size: 0.5em;
-  font: 100% $text;
+  font-size: 2em;
+  font: 100% $Text;
   z-index: 10;
-  padding: 1rem 0 3rem 0 ;
-}
-div#links ul {
-  display: flex;
-  flex-direction: column;
-  text-transform: capitalize;
-
-  li {
-    text-transform: capitalize;
-  }
-}
-.second-level {
-  // display: none;
-  margin-left: 2rem;
-  border-left: solid 1px white;
-}
-ul.mobile-menu {
-    position: fixed;
-    top: 10%;
-    left: 20%;
-}
-.fab.fa-facebook-f.mobile {
-  font-size: 25px;
-  margin: 0;
+  padding: 1rem 0;
 }

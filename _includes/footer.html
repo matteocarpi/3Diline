@@ -1,3 +1,15 @@
-<div class="footer">
+<footer>
+  <div id="footer-content" class="" >
+
+    <img src="{{ site.baseurl }}{{ site.logo }}" class="logo" alt="">
+
+    <div id="contact-info" class="white" >
+     <p class="indirizzo">{{ site.indirizzo | markdownify }}</p>
+     <br>
+     <a class="white" href="tel:{{ site.tel }}">{{ site.tel }}</a>
+     <p><a class="white" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    </div>
+
+  </div>
   <span>Copyright©2019 {{ site.title }}</span>
-</div>
+</footer>

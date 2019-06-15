@@ -1,11 +1,13 @@
-// Fonts
-$Headings: 'Abril Fatface', cursive;
 
-$Text: 'Roboto', sans-serif;
+// Fonts
+$titles: 'Raleway', sans-serif;
+$text: 'Cormorant Infant', serif;
 
 //Colors
-
+$yellow: #FCEE4F;
+$red: #D1342D;
 $light: #ffffff;
-$dark: #151515;
-$red: #A93F3F;
-$pink: #F08080;
+$dark: #000000;
+
+// $blue-gradient: radial-gradient(67% 172%, #6C85F0 26%, #1B3C5D 100%);
+$blue-gradient: linear-gradient(270deg, #2571B5 45%, #1B3C5D 99%);

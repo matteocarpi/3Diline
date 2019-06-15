@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div id="" class="page-title-slide pelletteria" >
+  <div class="pelletteria-title-content">
+    <h1 class="page-title white">{{ page.title }}</h1>
+    <img class="pelletteria" src="{{ site.baseurl }}{{ page.title-image }}" alt="">
+  </div>
+</div>
+<div id="" class="brand-display">
+  <div id="" class="brands" >
+
+    {% assign section-name = page.section-name %}
+    {% assign brands = "" | split: ',' %}
+    {% for item in site.data.brands %}
+      {% if item.section contains section-name %}
+        {% assign brands = brands | push:item %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign brands-ordered = "" | split: ',' %}
+
+    {% for ordered-item in site.data.brands-ordine.piccola-pelletteria %}
+      {% for item in brands %}
+        {% if ordered-item == item.name %}
+
+          {% assign brands-ordered = brands-ordered | push:item %}
+
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    {% include brand-display.html %}
+
+  </div>
+</div>

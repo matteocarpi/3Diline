@@ -1,0 +1,33 @@
+div#gallery-title {
+max-height: 80vh;
+overflow: hidden;
+position: relative;
+
+  h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+  }
+}
+
+video#video-background {
+    margin-top: -20%;
+}
+
+.small {
+  width: 300px;
+  margin: 0.3rem;
+}
+.gallery {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1440px;
+
+.gallery-pictures {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+}

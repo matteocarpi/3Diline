@@ -1,28 +1,72 @@
+  <header>
 
-  {% if page.permalink != "/" %}
-  <div class="header colouredBackground" style="background: linear-gradient(rgba(000,000,000, 0.2), rgba(000,000,000, 0.3)), url({{ site.baseurl }}/uploads/print2.JPG);">
-    <div class="name">
-      <a class="name" href="{{ site.baseurl }}/"><h3>{{ site.name }}</h3></a>
-    </div>
-  {% else %}
-  <div class="header">
-  {% endif %}
+    <a class="logo" href="{{ site.baseurl }}/">  <img src="{{ site.baseurl }}{{ site.logo }}" alt=""></a>
 
+    <i id="burger" class="material-icons" onclick="burger()">menu</i>
+    <i id="quit" class="material-icons" onclick="quit()">clear</i>
 
-      <i id="burger" class="material-icons" onclick="burger()">menu</i>
-      <i id="quit" class="material-icons" onclick="quit()">clear</i>
+    <ul id="large-menu" class="navbar-nav">
 
-      <ul id="large-menu" class="navbar-nav">
-        {% for item in site.data.navigation %}
+      {% for item in site.data.navigation %}
+
+        {% if item.second-level %}
+
           <li class="nav-item {% if page.url contains item.link %} active {% endif %}">
-            <a class="nav-link" href="{{ item.link }}"> {{ item.name }}
-          </li>
-          {% endfor %}
-      </ul>
 
-        <div id="links">
-          {% for item in site.data.navigation %}
-            <a onclick="quit()" class="menu-item" href="{{ item.link }}">{{ item.name }}</a>
-          {% endfor %}
-        </div>
-</div>
+            <span class="nav-link">{{ item.name }}</span>
+
+              <ul>
+              {% for item in item.second-level %}
+                <li><a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a></li>
+              {% endfor %}
+
+              </ul>
+
+          </li>
+
+        {% else %}
+
+          <li class="nav-item {% if page.url contains item.link %} active {% endif %}">
+
+            <a class="nav-link" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+
+          </li>
+
+        {% endif %}
+
+      {% endfor %}
+
+    <li>  <a target="_blank" href="https://www.facebook.com/pages/3Diline/353815301328641"><i class="fab fa-facebook-f"></i></a></li>
+
+    </ul>
+
+    <div id="links">
+      <ul class="mobile-menu">
+
+        {% for item in site.data.navigation %}
+
+          {% if item.second-level %}
+
+            <li><span class="menu-item">{{ item.name }}</span></li>
+
+              <ul class="second-level">
+
+                {% for item in item.second-level %}
+                  <li onclick="quit()" class="second-level-item"><a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a></li>
+                {% endfor %}
+
+              </ul>
+
+          {% else %}
+
+              <li><a onclick=" quit()" class="menu-item" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a></li>
+
+          {% endif %}
+
+        {% endfor %}
+
+        <li>  <a target="_blank" href="https://www.facebook.com/pages/3Diline/353815301328641"><i class="fab fa-facebook-f mobile"></i></a></li>
+
+      </ul>
+    </div>
+  </header>

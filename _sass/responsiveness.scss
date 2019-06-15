@@ -1,17 +1,146 @@
 //Large screen
 @media screen and (min-width: 769px){
+  // Fonts
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+  }
   #links, #burger, #quit {
     display: none;
   }
+  div.brands {
+    justify-content: flex-start;
+  }
+  div.brand-description.left {
+    left: 0;
+      .arrow-up {
+        visibility: hidden;
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+        transform: rotate(45deg);
+        position: absolute;
+        bottom: -15px;
+        left: 10%;
+        z-index: 2;
+    }
+  }
+  div.brand-description.right {
+    right: 0;
+    .arrow-up {
+      visibility: hidden;
+      opacity: 0;
+      width: 30px;
+      height: 30px;
+      transform: rotate(45deg);
+      position: absolute;
+      left: 86%;
+      z-index: 2;
+      bottom: -16px;
+    }
+  }
+
+  // Home
+    .handshake {
+      transform: scale(1.5);
+    }
 }
 
 // Tablet
-@media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
   ul#large-menu {
     display: none;
+
+    * {
+      display: none !important;
+    }
+
   }
+
+  section#story {
+    flex-direction: column-reverse;
+
+    #story-content-wrap, #story-picture {
+      width: 100%;
+    }
+  }
+  div.brand-wrap {
+    flex: 0 0 auto;
+  }
+
+  div.brands {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  a.logo img {
+    margin-left: 1rem;
+  }
+
+  .second-level {
+    .second-level-item {
+      padding: 0.5rem;
+    }
+  }
+
+  // Brand Pages
+  .page-title-slide {
+    justify-content: center;
+
+    .title-content {
+      align-items: center;
+      justify-content: space-around;
+      height: 50%;
+      .page-title {
+        position: relative;
+        right: 0;
+        top: 0;
+      }
+      .shoe {
+        align-self: center;
+      }
+    }
+  }
+  .page-title-slide.pelletteria {
+    padding: 0;
+  }
+  .pelletteria-title-content {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    width: 100%;
+    .page-title {
+      margin: 0;
+    }
+  }
+  // contatti
+
+
+  #contatti {
+    flex-direction: column;
+    width: 100%;
+
+    #contact-info {
+      img.logo {
+        margin: 2rem 0;
+      }
+      .orari {
+        margin-top: 2rem;
+        p {
+          margin: 1rem 0;
+        }
+      }
+    }
+
+  }
+  .side-model {
+    display: none;
+  }
+  // Footer
 }
 
 // Smartphone
 @media screen and (max-width: 375px){
+
 }

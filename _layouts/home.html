@@ -65,7 +65,7 @@ layout: default
 
   <div id="story-content-wrap" class="story">
     <div id="story-content" class="story">
-      <h1 class="black">{{ page.story.title }}</h1>
+      <h1 class="black small-title">{{ page.story.title }}</h1>
     </div>
   </div>
 
@@ -74,7 +74,7 @@ layout: default
 <section id="professionalità">
   <div class="professionalità-text">
     <h2 class="black mission">{{  page.professional.title }}</h2>
-    <p class="mission">{{ page.professional.copy }}</p>
+    <p class="mission">{{ page.professional.copy | markdownify }}</p>
   </div>
   <svg class="handshake" width="189px" height="118px" viewBox="0 0 189 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

@@ -23,4 +23,5 @@ gallery:
   - img: "/assets/gallery/negozio-3diline-18.jpg"
   - img: "/assets/gallery/negozio-3diline-19.jpg"
   - img: "/assets/gallery/negozio-3diline-20.jpg"
+  - img: "/assets/gallery/negozio-3diline-21.jpg"
 ---

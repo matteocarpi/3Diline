@@ -80,7 +80,7 @@ function sideScroll(element,direction,speed,distance,step){
 // Slider
 
 let numSlides = 4;
-let activeSlide = 2;
+let activeSlide = 1;
 let transitionWait = 5;
 
 function rotateSlides() {
@@ -92,4 +92,9 @@ function rotateSlides() {
   newSlide.classList.add("active");
 };
 
-setInterval(rotateSlides, transitionWait * 1000);
+function activateSlider() {
+  setInterval(rotateSlides, transitionWait * 1000);
+  console.log('diomaiale');
+}
+
+setTimeout(activateSlider, 5000);

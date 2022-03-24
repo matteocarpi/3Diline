@@ -1,9 +1,9 @@
 - name: "Nero Giardini"
   logo: "/assets/brand-logos/nero-giardini.png"
   copy: |-
-     Una produzione di scarpe, accessori e abbigliamento Made in Italy è alla base del successo di NeroGiardini.
+    Una produzione di scarpe, accessori e abbigliamento Made in Italy è alla base del successo di NeroGiardini.
 
-     Nero Giardini ha sede a Monte San Pietrangeli (FM) nelle Marche, nel cuore del distretto calzaturiero fermano-maceratese.
+    Nero Giardini ha sede a Monte San Pietrangeli (FM) nelle Marche, nel cuore del distretto calzaturiero fermano-maceratese.
   url: "https://www.nerogiardini.it/"
   img-men:
   img-women:
@@ -44,15 +44,7 @@
   logo: "/assets/brand-logos/callaghan.png"
   copy: |-
     La filosofia aziendale di Callaghan si è sempre basata su alcuni pilastri fondamentali quali, in ordine di importanza: prodotto, distribuzione, immagine e prezzo, parallelamente all’attenzione per l’ecosistema ambientale.
-  url:  "https://it.callaghan.es/"
-  img-men:
-  img-women:
-  section: [u, d, b]
-- name: "Frau"
-  logo: "/assets/brand-logos/frau.png"
-  copy: |-
-    La produzione di FRAU è realizzata negli stabilimenti situati nella provincia di Verona, uno dei principali distretti calzaturieri in Italia. Oggi Frau rimane una azienda familiare, guidata dalla seconda generazione, che continua a sostenere il made in Italy con impegno e passione, che mira ad uno sviluppo economico sostenibile e duraturo, che si identifica con una comunità inserita nel territorio in cui si condividono i valori.
-  url: "https://www.frau.it"
+  url: "https://it.callaghan.es/"
   img-men:
   img-women:
   section: [u, d, b]
@@ -88,14 +80,6 @@
   img-men:
   img-women:
   section: [u, d]
-- name: "Albano"
-  logo: "/assets/brand-logos/albano.png"
-  copy: |-
-    La filosofia di Albano è creare modelli e collezioni che conservino intatto il proprio fascino sottraendosi alla fugacità del glamour da capricciosa fashionista. Modelli esclusivi per le più esigenti attitude che interpretano una femminilità complessa e multi sfaccettata, sempre ammaliatrice, il leitmotiv di serate mondane, aperitivi informali, riunioni di lavoro.
-  url: "https://www.albano.it"
-  img-men:
-  img-women:
-  section: [d]
 - name: "Nike"
   logo: "/assets/brand-logos/nike.png"
   copy: |-
@@ -120,6 +104,14 @@
   img-men:
   img-women:
   section: [u, d, b]
+- name: "Giulia"
+  logo: "/assets/brand-logos/giulia.png"
+  copy: |-
+
+  url: "https://giulia-shoes.com/"
+  img-men:
+  img-women:
+  section: [u, d]
 - name: "Samsonite"
   logo: "/assets/brand-logos/samsonite.png"
   copy: |-

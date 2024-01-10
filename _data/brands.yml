@@ -56,6 +56,14 @@
   img-men:
   img-women:
   section: [u, d, b]
+- name: "Giulia"
+  logo: "/assets/brand-logos/giulia.png"
+  copy: |-
+
+  url: "https://giulia-shoes.com/"
+  img-men:
+  img-women:
+  section: [u, d]
 - name: "Cristiano Gualtieri"
   logo: "/assets/brand-logos/cristiano-gualtieri.png"
   copy: |-
@@ -104,14 +112,6 @@
   img-men:
   img-women:
   section: [u, d, b]
-- name: "Giulia"
-  logo: "/assets/brand-logos/giulia.png"
-  copy: |-
-
-  url: "https://giulia-shoes.com/"
-  img-men:
-  img-women:
-  section: [u, d]
 - name: "Samsonite"
   logo: "/assets/brand-logos/samsonite.png"
   copy: |-

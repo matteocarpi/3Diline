@@ -80,14 +80,14 @@
   img-men:
   img-women:
   section: [u]
-- name: "Wrangler"
-  logo: "/assets/brand-logos/Wrangler.png"
-  copy: |-
-    Sin dall'inizio dell'attività di Wrangler, l'ispirazione e guida del marchio è stata l'esperienza di vita. L'azienda lavora seguendo un semplice e chiaro principio: il vestiario e le calzature devono essere progettate per soddisfare i bisogni di chi li indossa.
-  url: "https://www.wrangler-footwear.com"
-  img-men:
-  img-women:
-  section: [u, d]
+# - name: "Wrangler"
+#   logo: "/assets/brand-logos/Wrangler.png"
+#   copy: |-
+#     Sin dall'inizio dell'attività di Wrangler, l'ispirazione e guida del marchio è stata l'esperienza di vita. L'azienda lavora seguendo un semplice e chiaro principio: il vestiario e le calzature devono essere progettate per soddisfare i bisogni di chi li indossa.
+#   url: "https://www.wrangler-footwear.com"
+#   img-men:
+#   img-women:
+#   section: [u, d]
 - name: "Nike"
   logo: "/assets/brand-logos/nike.png"
   copy: |-

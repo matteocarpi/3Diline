@@ -7,7 +7,7 @@ man:
     Callaghan,
     24h,
     Perez,
-    Wrangler,
+    # Wrangler,
     Nike,
     Adidas,
     Hawaianas,
@@ -21,11 +21,11 @@ woman:
     Valleverde,
     Callaghan,
     24h,
-    Wrangler,
+    Giulia,
+    # Wrangler,
     Nike,
     Adidas,
     Hawaianas,
-    Giulia,
   ]
 kid: [Nero Giardini, Geox, Balducci, Nike, Adidas, Hawaianas]
 cartelle: [The Bridge, Piquadro, Roncato, Samsonite]
